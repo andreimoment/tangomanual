@@ -1,5 +1,3 @@
-# Tango Manual
+# Tango Manual official title
 
-## Missions
-
-### [1-A Title of the first mission: *Subtitle*](1-a.md)
+[Version 1](v1/README.md)
