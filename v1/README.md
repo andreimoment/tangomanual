@@ -1,8 +1,9 @@
 # Tango Manual
 
 
+<!-- {% include color_title2.html title="Color Red: " subtitle="Subtitle" color="red" %} -->
 
-## {% include color.html color="red" %} Color Red 
+## Color Red: *Subtitle*
 
 
 ### [1-A Title of the first mission: *Subtitle*](1-a.md)
