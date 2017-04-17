@@ -7,3 +7,6 @@ gem 'github-pages', group: :jekyll_plugins
 # versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
 # gem 'github-pages', versions['github-pages']
+
+gem "jekyll-readme-index"
+gem 'jekyll-redirect-from'
