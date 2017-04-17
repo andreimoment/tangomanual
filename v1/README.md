@@ -1,3 +1,7 @@
+---
+title: Tango Manual, v.1
+---
+
 # Tango Manual
 
 
