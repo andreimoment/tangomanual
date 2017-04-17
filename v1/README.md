@@ -1,8 +1,8 @@
 ---
-title: Tango Manual, v.1
+title: "Tango Manual, v.1"
 ---
 
-# Tango Manual
+# Tango Manual, v.1
 
 
 <!-- {% include color_title2.html title="Color Red: " subtitle="Subtitle" color="red" %} -->
