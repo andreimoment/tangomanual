@@ -3,6 +3,9 @@ manual_version: 1
 section: 1
 mission: A
 youtube: "vSjX02FIZCk"
+redirect-from:
+  - 1-A-TEST
+  - 1A
 ---
 
 Section name: {{ site.data.v1_sections[3] }}
