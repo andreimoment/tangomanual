@@ -1,0 +1,6 @@
+<h{{include.size}} class="section-title {{ site.data.tm_v1["section"][include.section].color }}">
+  {% if include.number==true %}
+  {{ include.section }}&nbsp;
+  {% endif %}
+  {{ site.data.tm_v1["section"][include.section].title }}
+</h{{include.size}}>

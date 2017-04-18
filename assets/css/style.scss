@@ -4,10 +4,10 @@
 @import "{{ site.theme }}";
 {% endif %}
 
-.section-header {
+.section-title {
   position: relative;
 }
-.section-header:before {
+.section-title:before {
   position: absolute;
   content: "";
   width: .8em;
@@ -17,16 +17,16 @@
   top: .2em;
 }
 
-.section-header.red:before { background-color: red; }
-.section-header.orange:before { background-color: orange; }
-.section-header.yellow:before { background-color: yellow; }
-.section-header.green:before { background-color: green; }
-.section-header.blue:before { background-color: blue; }
-.section-header.purple:before { background-color: purple; }
-.section-header.pink:before { background-color: pink; }
+.section-title.red:before { background-color: red; }
+.section-title.orange:before { background-color: orange; }
+.section-title.yellow:before { background-color: yellow; }
+.section-title.green:before { background-color: green; }
+.section-title.blue:before { background-color: blue; }
+.section-title.purple:before { background-color: purple; }
+.section-title.pink:before { background-color: pink; }
 
 
-.section_header.white {
+.section-title.white {
   border: 1px solid grey;
 }
 
@@ -51,12 +51,13 @@
 // make the container responsive and add margins for small screens
 
 .container {
-  max-width: 980px;
+  max-width: 960px;
 }
 
 @media (max-width: 979px) {
   .container {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+    max-width: 90%;
   }
 }
