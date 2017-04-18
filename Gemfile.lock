@@ -194,9 +194,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
-  jekyll-readme-index
-  jekyll-redirect-from
+  github-pages (= 134)
+  json
 
 RUBY VERSION
    ruby 2.3.1p112
