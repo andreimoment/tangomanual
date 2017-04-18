@@ -1,0 +1,30 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.section-header {
+  position: relative;
+}
+.section-header:before {
+  position: absolute;
+  content: "";
+  width: .8em;
+  height: .8em;
+  border-radius: 50%;
+  left: -1.1em;
+  top: .2em;
+}
+
+.section-header.red { background-color: red; }
+.section-header.orange { background-color: orange; }
+.section-header.yellow { background-color: yellow; }
+.section-header.green { background-color: green; }
+.section-header.blue { background-color: blue; }
+.section-header.purple { background-color: purple; }
+.section-header.pink { background-color: pink; }
+
+
+.section_header.white {
+  border: 1px solid grey;
+}

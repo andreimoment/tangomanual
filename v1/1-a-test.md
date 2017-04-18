@@ -5,13 +5,10 @@ section: 1
 mission: A
 youtube: "vSjX02FIZCk"
 redirect_from:
-  - "/v1/1-A-TEST"
+  - "/v1/redirect-test"
 ---
 
-Section name: {{ site.data.v1_sections[3] }}
-Current Section name: {{ site.data.v1_sections[page.section] }}
-
-# {{page.section}}-{{page.mission}} Mission Title *Mission subtitle* 
+{% include tm__mission_header.html %}
 
 ## Description
 
