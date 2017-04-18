@@ -5,9 +5,9 @@ section: 1
 mission: A
 youtube: "vSjX02FIZCk"
 redirect-from:
-  - 1-A-TEST
-  - 1A
-  - /v1/1-A-TEST
+  - "/v1/1-A-TEST"
+  - "/v1/1Z"
+  - "/v1/1-A-TEST"
 ---
 
 Section name: {{ site.data.v1_sections[3] }}

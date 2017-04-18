@@ -1,6 +1,5 @@
 ruby '2.3.1'
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
 
 # require 'json'
 # require 'open-uri'
@@ -8,5 +7,8 @@ gem 'github-pages', group: :jekyll_plugins
 
 # gem 'github-pages', versions['github-pages']
 
-gem "jekyll-readme-index"
-gem 'jekyll-redirect-from'
+group :jekyll_plugins do
+  gem 'github-pages'
+  gem "jekyll-readme-index"
+  gem 'jekyll-redirect-from'
+end

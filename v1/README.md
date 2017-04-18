@@ -4,9 +4,6 @@ title: "Tango Manual, v.1"
 
 # Tango Manual, v.1
 
-
-<!-- {% include color_title2.html title="Color Red: " subtitle="Subtitle" color="red" %} -->
-
 ## Color Red: *Subtitle*
 
 ### [1-A Title of the first mission: *Subtitle*](1-a.md)
