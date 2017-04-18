@@ -1,5 +1,6 @@
 ---
 title: "Tango Manual, v.1"
+manual_version: 1
 permalink: /
 ---
 
@@ -83,3 +84,7 @@ Pro tip: Bookmark this page on your device!
 ### [8-B Following the Follower](8-b.md)
 ### [8-C Switch!](8-c.md)
 ### [8-D Constraints Tanda](8-d.md)
+
+---
+
+{% include tm_feedback.html %}
