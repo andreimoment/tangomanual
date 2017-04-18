@@ -29,6 +29,8 @@
   border: 1px solid grey;
 }
 
+// make videos responsive
+
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -45,10 +47,14 @@
   border: none;
 }
 
+// make the container responsive and add margins for small screens
+
+.container {
+  max-width: 980px;
+}
 
 @media (max-width: 979px) {
   .container {
-    max-width: 979px;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
