@@ -1,7 +1,6 @@
 ---
 title: "Tango Manual, v.1"
 manual_version: 1
-permalink: /
 ---
 
 # Tango Manual, v.1
