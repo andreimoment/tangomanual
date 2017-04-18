@@ -1,6 +1,5 @@
 ---
 title: Tango Manual
-permalink: /
 ---
 
 
