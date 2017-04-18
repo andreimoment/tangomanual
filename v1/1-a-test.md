@@ -4,9 +4,7 @@ manual_version: 1
 section: 1
 mission: A
 youtube: "vSjX02FIZCk"
-redirect-from:
-  - "/v1/1-A-TEST"
-  - "/v1/1Z"
+redirect_from:
   - "/v1/1-A-TEST"
 ---
 
