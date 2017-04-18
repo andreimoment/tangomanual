@@ -1,0 +1,27 @@
+{% assign section_title = site.data.tm_v1["section"][page.section].title %}
+{% assign section_color = site.data.tm_v1["section"][page.section].color %}
+
+<style type="text/css">
+
+  .section-header {
+    position: relative;
+  }
+  .section-header:before {
+    position: absolute;
+    content: "";
+    width: .8em;
+    height: .8em;
+    border-radius: 50%;
+    left: -1.1em;
+    top: .2em;
+    background-color: {{ section_color }}
+  }
+
+  .section_header.white {
+    border: 1px solid grey;
+  }
+</style>
+
+<h3 class="section-header">
+  {{ section_title }}
+</h3>
