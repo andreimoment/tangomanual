@@ -1,7 +1,8 @@
 ---
 ---
-
+{% if jekyll.environment == "production" %}
 @import "{{ site.theme }}";
+{% endif %}
 
 .section-header {
   position: relative;
