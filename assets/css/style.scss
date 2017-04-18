@@ -26,8 +26,8 @@
 .section-title.pink:before { background-color: pink; }
 
 
-.section-title.white {
-  border: 1px solid grey;
+.section-title.white:before {
+  outline: 2px solid #ddd;
 }
 
 // make videos responsive
@@ -56,8 +56,8 @@
 
 @media (max-width: 979px) {
   .container {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 1.7rem;
+    margin-right: 1.7rem;
     max-width: 90%;
   }
 }
