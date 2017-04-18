@@ -1,8 +1,11 @@
 ---
 title: "Tango Manual, v.1"
+permalink: /
 ---
 
 # Tango Manual, v.1
+
+Pro tip: Bookmark this page on your device!
 
 {% include tm__section_title.html section=1 size="2" number=true %}
 
