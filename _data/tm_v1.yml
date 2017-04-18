@@ -1,11 +1,19 @@
-sections: 
-  - FILLER Section at index 0
-  - Section 1
-  - Section 2
-  - Section 3
-  
-colors:
-  - none
-  - red
-  - blue
-  - green
+section:
+  - title: none
+    color: none
+  - title: "Red Ring - Quickstart"
+    color: red
+  - title: "Orange Ring - Ooh Ocho"
+    color: orange
+  - title: "Yellow Ring - Milonga Bam!"
+    color: yellow
+  - title: "Green Ring - Hug & Walk"
+    color: green
+  - title: "Blue Ring - Milonguero Groove"
+    color: blue
+  - title: "Purple Ring - Salon"
+    color: purple
+  - title: "Pink Zone - Technique"
+    color: pink
+  - title: "White Zone - Practice Games"
+    color: white

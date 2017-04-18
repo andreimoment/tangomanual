@@ -1,4 +1,5 @@
 ---
+title: "Mission Name"
 manual_version: 1
 section: 1
 mission: A
