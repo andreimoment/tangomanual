@@ -1,11 +1,12 @@
 ---
 title: "Tango Manual, v.1"
 manual_version: 1
+redirect_from: "/"
 ---
 
 # Tango Manual, v.1
 
-Pro tip: Bookmark this page on your device!
+Pro tip: [Bookmark](https://www.howtogeek.com/196087/how-to-add-websites-to-the-home-screen-on-any-smartphone-or-tablet/) this page on your device!
 
 {% include tm__section_title.html section=1 size="2" number=true %}
 
