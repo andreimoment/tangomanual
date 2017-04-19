@@ -6,7 +6,7 @@ Before you proceed, remember to [go back to the Manual Mission List page](v1/ind
 ### On iOS
 
 1. **Open the Tango Manual Mission List page in Safari**
-2. **Tap the options icon** That's the square with an arrow pointing up icon in the icon bar at the bottom of the screen. You may have to scroll the page up/downn for the bar to appear.
+2. **Tap the options icon** That's the square-with-an-arrow-pointing-up icon in the icon bar at the bottom of the screen. You may have to scroll the page up/down for the bar to appear.
 3. **Tap the icon which says "Add to Home Screen"**
 4. :sunglasses: You rock!
 
@@ -20,10 +20,9 @@ Before you proceed, remember to [go back to the Manual Mission List page](v1/ind
 
 ### Need more detailed instructions?
 
-Take a look [here](https://www.howtogeek.com/196087/how-to-add-websites-to-the-home-screen-on-any-smartphone-or-tablet/)
+Take a look [here](https://www.howtogeek.com/196087/how-to-add-websites-to-the-home-screen-on-any-smartphone-or-tablet/).
 
 
 
 
 {% include tm__ga.html %}
-
