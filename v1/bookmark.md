@@ -6,7 +6,7 @@ Before you proceed, remember to [go back to the Manual Mission List page](index.
 ### On iOS
 
 1. **Open the [Manual Mission List page](index.md) in Safari**
-2. **Tap the action (![Apple action icon](../apple-action.png)) icon**
+2. **Tap the action icon** ...Looks like this: ![Apple action icon](../apple-action.png)
 3. **Tap the icon which says "Add to Home Screen"**
 4. :sunglasses: You rock!
 
