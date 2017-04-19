@@ -1,18 +1,18 @@
 
 ## How to Bookmark the Tango Manual (and add it to your device home screen!)
 
-Before you proceed, remember to [go back to the Manual Mission List page](v1/index.md)! Otherwise you'd end up bookmarking the page you're on right now.
+Before you proceed, remember to [go back to the Manual Mission List page](index.md)! Otherwise you'd end up bookmarking the page you're on right now.
 
 ### On iOS
 
-1. **Open the [Manual Mission List page](v1/index.md) in Safari**
+1. **Open the [Manual Mission List page](index.md) in Safari**
 2. **Tap the options icon** That's the square-with-an-arrow-pointing-up icon in the icon bar at the bottom of the screen. You may have to scroll the page up/down for the bar to appear.
 3. **Tap the icon which says "Add to Home Screen"**
 4. :sunglasses: You rock!
 
 ### On Android
 
-1. **Open the [Manual Mission List page](v1/index.md) in Chrome**
+1. **Open the [Manual Mission List page](index.md) in Chrome**
 2. **Open Chrome's menu**
 3. **Tap the "Add to Home Screen" option**
 4. :sunglasses: ... Now Tango!
