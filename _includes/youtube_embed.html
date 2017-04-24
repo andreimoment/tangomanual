@@ -1,3 +1,8 @@
+{% for video_id in page.youtube %}
+{% if forloop.index > 1 %}
+<span></span>
+{% endif %}
 <div class="video-wrapper">
-  <iframe width="640" height="360" src="https://www.youtube.com/embed/{{page.youtube}}" frameborder="0" allowfullscreen></iframe>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/{{video_id}}" frameborder="0" allowfullscreen></iframe>
 </div>
+{% endfor %}
