@@ -1,4 +1,4 @@
-# Operating Manual For Tango -- What is it and how you can contribute to it?
+# Operating Manual For Tango
 
 ## An Open Source Approach to Teaching Tango
 
