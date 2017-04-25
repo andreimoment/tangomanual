@@ -87,4 +87,6 @@ Pro tip: [Bookmark](bookmark.md) this page on your device!
 
 ---
 
+{% include tm__buy_manual %}
+
 {% include tm__feedback.html %}
