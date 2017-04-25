@@ -12,13 +12,16 @@ Issues (see the *Issues* tab in the menu above) is a forum-like part of a github
 
 When creating a mission-specific issue, please:
 
-* mention the mission code in the issue title
-* be as specific as possible in the description
+* Make sure this issue doesn't yet exist. If it does, add a comment to that conversation instead.
+* Mention the mission code in the issue title
+* Be as specific as possible in the description
 
-#### Example issue
+##### Example of a well-structured issue
 
-* **Title:** 4-F: The steps in the description do not match the video. 
-* **Description:** 3. Leader turns to the right does not correspond to the video which shows the leader turning to the left.
+* **Title:** 4-F: The steps in the description do not match the video. (contains the mission number and a one-line description)
+* **Description:** 3. Leader turns to the right does not correspond to the video which shows the leader turning to the left. (a very specific description)
+
+Here's a [link to this project's issues](https://github.com/andreimoment/tangomanual/issues).
 
 Here's GitHub's help page on [how to create an issue](https://help.github.com/articles/creating-an-issue/)
 
