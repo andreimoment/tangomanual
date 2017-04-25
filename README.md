@@ -8,13 +8,19 @@
 
 #### Create a github issue
 
-GitHub issues is a forum-like part of github where people converse about project-related issues and tasks. Here's [how to create an issue](https://help.github.com/articles/creating-an-issue/) (if you don't have a github account you'll be prompted to create one). 
+Issues (see the *Issues* tab in the menu above) is a forum-like part of a github project where people converse about project-related issues and tasks. To create an issue, you'll need to have a GitHub account. 
 
-Make sure you mention the mission number and be very specific. A good issue title would be "4-F: The steps in the description do not match the video." 
+When creating a mission-specific issue, please:
 
-The description might say something like: "3. Leader turns to the right does not correspond to the video which shows the leader turning to the left."
+* mention the mission code in the issue title
+* be as specific as possible in the description
 
-Here's a link to the [Issues Page](https://github.com/andreimoment/tangomanual/issues) for this project.
+#### Example issue
+
+* **Title:** 4-F: The steps in the description do not match the video. 
+* **Description:** 3. Leader turns to the right does not correspond to the video which shows the leader turning to the left.
+
+Here's GitHub's help page on [how to create an issue](https://help.github.com/articles/creating-an-issue/)
 
 ### Want to suggest a mission rewrite? Or create a brand new mission? 
 
@@ -22,7 +28,11 @@ Here's a link to the [Issues Page](https://github.com/andreimoment/tangomanual/i
 
 *Whoa, Neo, not everyone is a hacker. What is this forking and pulling stuff?*
 
-A "fork" is a special copy of a repository. It knows where it was copied from and when, and can tell the difference between its own content and the content of the original. When you fork a repository, you end up with your own copy over which you have full control. This is where you make the changes you want to see in the original. Once you are done, you send a special message to the owner of the original pointing out the changes you made, and request the owner to include, or "pull" them in the original. That's the "pull request."
+A "fork" is a special copy of a repository. It knows where it was copied from and when, and can tell the difference between its own content and the content of the original. 
+
+When you fork a repository, you end up with your own copy over which you have full control. This is where you make the changes you want to see in the original. Once you are done, you send a special message to the owner of the original pointing out the changes you made, and request the owner to include, or "pull" them in the original. That's the "pull request."
+
+To create your own fork of this repository, click the "Fork" button in the top right corner of the page.
 
 Here is GitHub's guide on [forks](https://help.github.com/articles/about-forks/), and one on [creating a pull request from a fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 
