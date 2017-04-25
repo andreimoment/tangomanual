@@ -38,8 +38,10 @@ Here is GitHub's guide on [forks](https://help.github.com/articles/about-forks/)
 
 *When I edit a mission, I see pound signs and stars and underscores and square brackets in the text... what are these?* 
 
-These are a part of the GitHub [Markdown syntax](https://guides.github.com/features/mastering-markdown/) which allow you to create titles, italics, bold and links. By the way, you can also add [emoji](https://www.webpagefx.com/tools/emoji-cheat-sheet/)!
+These are a part of the GitHub [Markdown syntax](https://guides.github.com/features/mastering-markdown/) which allows you to create titles, italics, bold and links in plain text documents, without having to learn and write HTML code. By the way, you can also add [emoji](https://www.webpagefx.com/tools/emoji-cheat-sheet/)!
 
 Video (TBA)
 
-### Want to get in touch with us about bringing this methodology to your community, learning to teach it yourself, or anything else? Send us an email.
+### Want to get in touch with us about bringing this methodology to your community, learning to teach it yourself, or anything else?
+
+Send us an email at tangomanual at gmail.com.
