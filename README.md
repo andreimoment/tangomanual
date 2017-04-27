@@ -35,7 +35,18 @@ A "fork" is a special copy of a repository. It knows where it was copied from an
 
 When you fork a repository, you end up with your own copy over which you have full control. This is where you make the changes you want to see in the original. Once you are done, you send a special message to the owner of the original pointing out the changes you made, and request the owner to include, or "pull" them in the original. That's the "pull request."
 
-To create your own fork of this repository, click the "Fork" button in the top right corner of the page.
+Here are the steps:
+
+1. Create your own fork (button in top right of the project)
+2. Make changes
+3. Click on the Pull Requests grey tab of the forked project
+4. Create a pull request, remember to describe the changes
+
+Please:
+
+* Create individual pull requests for each mission -- makes discussion easy.
+* Make sure to have your version synced with the original if some time passes between your forking the project and the pull request being ready.
+* You may want to create changes in a branch. 
 
 Here is GitHub's guide on [forks](https://help.github.com/articles/about-forks/), and one on [creating a pull request from a fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 
