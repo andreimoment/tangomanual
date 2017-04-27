@@ -39,7 +39,7 @@ Here are the steps:
 
 1. Create your own fork (button in top right of the project)
 2. Make changes
-3. Click on the Pull Requests grey tab of the forked project
+3. Click on the "Pull requests" grey tab of the forked project
 4. Create a pull request, remember to describe the changes
 
 Please:
