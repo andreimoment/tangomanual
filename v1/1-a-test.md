@@ -4,8 +4,7 @@ manual_version: 1
 section: 1
 mission: A
 youtube: "vSjX02FIZCk"
-redirect_from:
-  - "/v1/redirect-test"
+redirect_from: "/v1/1-A-test"
 ---
 
 {% include tm__mission_header.html %}
