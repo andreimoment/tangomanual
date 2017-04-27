@@ -45,8 +45,7 @@ Here are the steps:
 Please:
 
 * Create individual pull requests for each mission -- makes discussion easy.
-* Make sure to have your version synced with the original if some time passes between your forking the project and the pull request being ready. This may require using git from the command line. [Instructions](https://help.github.com/articles/syncing-a-fork/).
-* You may want to create changes in a branch. 
+* Make sure to have your version of the tangomanual repository synced with the original, especially if some time passes between your forking the project and the pull request being ready. This may require using git from the command line. [Instructions](https://help.github.com/articles/syncing-a-fork/).
 
 Here is GitHub's guide on [forks](https://help.github.com/articles/about-forks/), and one on [creating a pull request from a fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 
