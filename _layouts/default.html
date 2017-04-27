@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</
+    <!-- <link href="/assets/css/style.css?v=c822487855a8b13345de1fbd5d20c4eb2d9da3b4" rel="stylesheet"> -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <div class="container markdown-body">
+      {{ content }}
+    </div>
+  </body>
+</html>
