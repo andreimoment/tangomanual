@@ -5,7 +5,7 @@ title: Tango Manual
 
 # Hello, Beatific Spirit!
 
-[Go to Version 1](v1/index.md) of the Manual
+[Go to the Learning Missions in version 1](v1/index.md) of the Manual
 
 
 
