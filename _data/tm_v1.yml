@@ -17,3 +17,5 @@ section:
     color: pink
   - title: "White Zone - Practice Games"
     color: white
+  - title: "Appendix"
+    color: black
