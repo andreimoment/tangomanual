@@ -35,7 +35,7 @@ We seek to model and expand values that support connection, including:
 
 Elements of this curriculum come from the work of generous tango teachers who also care about the expansion and spread of this beautiful form of connecting. Our hope is that this work ultimately contributes to a flourishing tango community and a work ecosystem that nourishes them creatively, socially, and financially. They include: 
 
-Daniel Trenner, David Lampson, Fabienne Bongard, Felipe Martinez, Homer & Cristina Ladas, Isaac Oboka, Jaimes Freidgen, Rebecca Shulman, Robin Thomas, Sharna Fabiano, Stefan Fabry, Tomas Howlin, and all the giants upon whose shoulders we all stand.
+Daniel Trenner, David Lampson, Fabienne Bongard, Felipe Martinez, Homer & Cristina Ladas, Isaac Oboka, Jaimes Freidgen, Korey Ireland, Rebecca Shulman, Robin Thomas, Sharna Fabiano, Stefan Fabry, Tomas Howlin, and all the giants upon whose shoulders we all stand.
 
 Please let us know if you recognize the work of any other tango professional in the content of this curriculum so that they can be acknowledged.  
 
