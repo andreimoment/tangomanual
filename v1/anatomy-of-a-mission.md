@@ -7,8 +7,6 @@ mission: A
 
 {% include tm__mission_header.html %}
 
-## Anatomy of a mission!
-
 Lots of missions teach new movement material. Here is how they work: 
 
 **Start:** Content?
