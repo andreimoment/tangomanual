@@ -9,9 +9,9 @@ mission: A
 
 Lots of missions teach new movement material. Here is how they work: 
 
-**Greeting:** Howdy! Connect humanly. Eye contact, name, how's it going?
-
-**Builds on:** Warm up, lead something they already know that's somehow similar.
+### Starting
+* **Greeting!** Howdy! Connect humanly. Eye contact, name, how's it going?
+* **Builds on:** Warm up, lead something they already know that's somehow similar.
 
 ### Following 
 * Follow Solo Walkthrough: Show them the structure of the follower's part, help them walk through it slowly, solo
