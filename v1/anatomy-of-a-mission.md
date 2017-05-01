@@ -5,7 +5,7 @@ section: 9
 mission: A
 ---
 
-{% include tm__mission_header.html %}
+{% include tm__appendix_header.html %}
 
 Lots of missions teach new movement material. Here is how they work: 
 
