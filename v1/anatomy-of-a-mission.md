@@ -11,7 +11,7 @@ Lots of missions teach new movement material. Here is how they work:
 
 **Start:** Content?
 
-**Greeting:** Howdy! Connect humanly. Eye contact, name, howzit going
+**Greeting:** Howdy! Connect humanly. Eye contact, name, how's it going?
 
 **Builds on:** Warm up, lead something they already know that's somehow similar.
 
