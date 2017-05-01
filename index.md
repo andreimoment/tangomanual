@@ -13,6 +13,9 @@ The intent is to support tango community organizers in smaller communities, and 
 
 The ultimate hope is that this becomes a part of an ecosystem of tools that support the growth of community through social, improvised tango.
 
+# Useful links
+* Anatomy of a mission: http://tangomanual.com/v1/anatomy-of-a-mission
+
 # Our values
 
 We seek to model and expand values that support connection, including: 
