@@ -1,8 +1,8 @@
 ---
 title: "Anatomy of a Mission"
 manual_version: 1
-section: 9
-mission: A
+# section: 9
+# mission: A
 ---
 
 {% include tm__mission_header.html %}
@@ -12,7 +12,9 @@ mission: A
 Lots of missions teach new movement material. Here is how they work: 
 
 **Start:** Content?
+
 **Greeting:** Howdy! Connect humanly. Eye contact, name, howzit going
+
 **Builds on:** Warm up, lead something they already know that's somehow similar.
 
 ### Part A: Following 
