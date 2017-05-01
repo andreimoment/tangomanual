@@ -1,8 +1,8 @@
 ---
 title: "Anatomy of a Mission"
 manual_version: 1
-# section: 9
-# mission: A
+section: 9
+mission: A
 ---
 
 {% include tm__mission_header.html %}
