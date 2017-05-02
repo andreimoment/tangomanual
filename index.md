@@ -3,7 +3,7 @@ title: Tango Manual
 ---
 
 
-# Hello!
+# Welcome to the Operating Manual for Tango!
 
 [Explore the Tango Learning Missions](v1/index.md) in Version 1 of the Manual
 
@@ -13,18 +13,18 @@ The intent is to support tango community organizers in smaller communities, and 
 
 The ultimate hope is that this becomes a part of an ecosystem of tools that support the growth of community through social, improvised tango.
 
-# Useful links if you're just getting started (coming soon!)
+## Useful links if you're just getting started (coming soon!)
 * Info for teachers and curriculum designers
 * Info for organizers and hosts
 * Info for buddies and helpers
 * Info if you're totally new to tango
 
-# Basic language
+## Basic language
 * RING - A tango level. Each ring is a different color and has a different theme. 
 * MISSION - A mission is a unit of nano-learning with a specific learning outcome. Missions that teach new movement material have this [anatomy](http://tangomanual.com/v1/appendix/anatomy-of-a-mission)
 * ZONE - A zone is a set of technique drills, exercises or practice games that you are never really "done" with.
 
-# Our values
+## Our values
 
 We seek to model and expand values that support connection, including: 
 
@@ -39,7 +39,7 @@ We seek to model and expand values that support connection, including:
 * Remembering appreciation and expanding lovingkindness to self and to all
 * Spreading the message of our essential interdependence in tango and tango learning
 
-# Acknowledgements
+## Acknowledgements
 
 Elements of this curriculum come from the work of generous tango teachers who also care about the expansion and spread of this beautiful form of connecting. Our hope is that this work ultimately contributes to a flourishing tango community and a work ecosystem that nourishes them creatively, socially, and financially. They include: 
 
