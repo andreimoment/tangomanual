@@ -46,4 +46,4 @@ Lots of missions teach new movement material. Here is how they work:
 * **Record your progress:** Write down the date and buddy name on the mission page in your manual.
 * **Improve the system:** Make notes in your manual, and [send suggestions](https://github.com/andreimoment/tangomanual/issues) to the mission writers. 
 
-{% include mission_footer.html %}
+{% include appendix_footer.html %}

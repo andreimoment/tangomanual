@@ -109,4 +109,4 @@ The walking beat of the music, usually counted ONE, THREE
 Double-Time
 Twice as fast as the walking beat, usually counted ONE TWO THREE or THREE FOUR ONE.
 
-{% include mission_footer.html %}
+{% include appendix_footer.html %}
