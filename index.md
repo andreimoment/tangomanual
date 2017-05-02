@@ -5,7 +5,7 @@ title: Tango Manual
 
 # Hello!
 
-[Explore the Missions in v1!](v1/index.md) of the Manual
+[Explore the Missions in v1](v1/index.md) of the Manual
 
 This open-sourced, collaboratively edited beginner curriculum is designed to provide structure for the first several hours of a learning for someone learning tango for the first time. Depending on the person, it could be explored in 20-60 hours. 
 
@@ -13,8 +13,16 @@ The intent is to support tango community organizers in smaller communities, and 
 
 The ultimate hope is that this becomes a part of an ecosystem of tools that support the growth of community through social, improvised tango.
 
-# Useful links if you're just getting started
-* [Anatomy of a mission] (http://tangomanual.com/v1/anatomy-of-a-mission)
+# Useful links if you're just getting started (coming soon!)
+* Info for teachers and curriculum designers
+* Info for organizers and hosts
+* Info for buddies and helpers
+* Info if you're totally new to tango
+
+# Basic language
+* RING - A tango level. Each ring is a different color and has a different theme. 
+* MISSION - A mission is a unit of nano-learning with a specific learning outcome. Missions that teach new movement material have this [anatomy](http://tangomanual.com/v1/anatomy-of-a-mission)
+* ZONE - A zone is a set of technique drills, exercises or practice games that you are never really "done" with.
 
 # Our values
 
