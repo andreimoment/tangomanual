@@ -5,7 +5,7 @@ title: Tango Manual
 
 # Welcome to the Operating Manual for Tango!
 
-[Explore the Tango Learning Missions](v1/index.md) in Version 1 of the Manual
+**[Explore the Tango Learning Missions](v1/index.md)** in Version 1 of the Manual
 
 This open-sourced, collaboratively edited beginner curriculum is designed to provide structure for the first several hours of a learning for someone learning tango for the first time. Depending on the person, it could be explored in 20-60 hours. 
 
@@ -35,7 +35,7 @@ We seek to model and expand values that support connection, including:
 * Supporting tango music and the musicians who create it by buying music
 * Celebrating the contributions of all those we've learn from, telling their stories
 * Working to create an ever-more safe, comfortable and equitable experience for everyone
-* Grounding our communication nonviolently in [feelings] (https://www.cnvc.org/sites/default/files/feelings_inventory_0.pdf) and [needs,] (https://www.cnvc.org/sites/default/files/needs_inventory_0.pdf) instead of judgements and demands
+* Grounding our communication nonviolently in [feelings](https://www.cnvc.org/sites/default/files/feelings_inventory_0.pdf) and [needs](https://www.cnvc.org/sites/default/files/needs_inventory_0.pdf), instead of judgements and demands
 * Remembering appreciation and expanding lovingkindness to self and to all
 * Spreading the message of our essential interdependence in tango and tango learning
 
