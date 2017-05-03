@@ -96,4 +96,8 @@ Our assumption is always that all students will learn both the leader and follow
 
 {% include tm__buy_manual.html %}
 
+---
+
 *This is version 1.0 of the Tango Manual*
+
+[&larr; Home](../index.html)
