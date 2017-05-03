@@ -1,9 +1,9 @@
 ---
-title: "Tango Manual, v.1"
+title: "Tango Manual: Learning Missions"
 manual_version: 1
 ---
 
-# Tango Manual, v.1
+# Tango Manual: Learning Missions
 
 Tip: [Bookmark](bookmark.md) this page on your device! [Important Notes](#this-project-is-alive)
 
@@ -86,7 +86,7 @@ Tip: [Bookmark](bookmark.md) this page on your device! [Important Notes](#this-p
 
 ---
 
-### This Project is Alive!
+### This Project is Alive and You are Invited to Contribute
 
 The Tango Manual is under active development which means frequent additions and improvements. You are our community and we invite you to take part in both. To suggest an improvement, consult the [instructions](https://github.com/andreimoment/tangomanual#how-to-contribute) or go directly to the [project issues](https://github.com/andreimoment/tangomanual/issues).
 
@@ -95,3 +95,5 @@ The Tango Manual is under active development which means frequent additions and 
 Our assumption is always that all students will learn both the leader and follower roles. For the sake of ease and clarity, we have defaulted to *masculine* pronouns when referencing *leader*, and *feminine* pronouns when referencing *follower*. We would like for the manual's convention with pronouns to be easy and clear. We are also aware that humans of the full gender spectrum are learning Tango and we embrace us all. It is our hope that everyone feels comfortable and included.
 
 {% include tm__buy_manual.html %}
+
+* Tango Manual Version 1.0 *
