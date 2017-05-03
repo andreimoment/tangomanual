@@ -2,12 +2,11 @@
 title: Tango Manual
 ---
 
-
 # Welcome to the Operating Manual for Tango!
 
 **[Explore the Tango Learning Missions](v1/index.md)** in Version 1 of the Manual
 
-This open-sourced, collaboratively edited beginner curriculum is designed to provide structure for the first several hours of a learning for someone learning tango for the first time. Depending on the person, it could be explored in 20-60 hours. 
+This open-sourced, collaboratively edited curriculum is designed to provide structure for the first 30-60 hours of beginner level tango learning.
 
 The intent is to support tango community organizers in smaller communities, and tango university clubs, by providing an easy-to-use curriculum including videos that intermediate and advanced dancers can use to integrate newcomers to tango. 
 
