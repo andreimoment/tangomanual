@@ -48,14 +48,11 @@ Daniel Trenner, David Lampson, Fabienne Bongard, Felipe Martinez, Homer & Cristi
 
 Please let us know if you recognize the work of any other tango professional in the content of this curriculum so that they can be acknowledged.  
 
-The concept of peer-to-peer learning has been developed at Oxygen Tango with the help and support of Alex Bartos, [Andrei Andreev](http://andreimoment.com), and Thomas Fischer.
+The concept of peer-to-peer learning has been developed at Oxygen Tango with the help and support of Alex Bartos, [Andrei Andreev](http://andreimoment.com), and Thomas Fischer. The manual project is currently maintained and edited by Mitra Martin. You can [support her work here](https://www.patreon.com/mitramartin).
 
-The manual project is currently maintained and edited by Mitra Martin. You can [support her work here](https://www.patreon.com/mitramartin).
-
-### Your own personal tango manual
+## Your own personal tango manual
 
 Do you want to keep track of your progress through missions, and keep all your notes about your tango learning journey in one adorable place? Then get the Operating Manual for Tango Multiplayer Game and Journal! [Learn more and purchase on Lulu.com](http://www.lulu.com/shop/mitra-martin/operating-manual-for-tango/paperback/product-23156231.html).
-
 
 ---
 {% include tm__feedback.html %}
