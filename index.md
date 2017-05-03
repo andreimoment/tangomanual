@@ -4,13 +4,17 @@ title: Tango Manual
 
 # Welcome to the Operating Manual for Tango!
 
-**[Explore the Tango Learning Missions](v1/index.md)** in Version 1 of the Manual
+**[Go to the Tango Learning Missions &rarr;](v1/index.md)**
 
-This open-sourced, collaboratively edited curriculum is designed to provide structure for the first 30-60 hours of beginner level tango learning.
+## Open-source Tango Curriculum
 
-The intent is to support tango community organizers in smaller communities, and tango university clubs, by providing an easy-to-use curriculum including videos that intermediate and advanced dancers can use to integrate newcomers to tango. 
+This open-source, collaboratively edited curriculum is designed to provide structure for the first 30-60 hours of beginner level tango learning.
 
-The ultimate hope is that this becomes a part of an ecosystem of tools that support the growth of community through social, improvised tango.
+The intent is to support tango community organizers in smaller communities, and tango university clubs, by providing an easy-to-use learning missions including videos that intermediate and advanced dancers can use to integrate newcomers to tango. 
+
+It is our hope that this becomes a part of an ecosystem of tools that support the growth of community through social, improvised tango.
+
+### This Curriculum is Alive and You are Invited to Contribute
 
 The Tango Manual is under active development which means frequent additions and improvements. You are our community and we invite you to take part in both. To suggest an improvement, consult the [instructions](https://github.com/andreimoment/tangomanual#how-to-contribute) or go directly to the [project issues](https://github.com/andreimoment/tangomanual/issues).
 
