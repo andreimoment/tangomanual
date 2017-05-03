@@ -5,7 +5,7 @@ manual_version: 1
 
 # Tango Manual: Learning Missions
 
-Tip: [Bookmark](bookmark.md) this page on your device! [Important Notes](#this-project-is-alive)
+Tip: [Bookmark](bookmark.md) this page on your device! [Important Notes](#this-project-is-alive-and-you-are-invited-to-contribute)
 
 {% include tm__section_title.html section=1 size="2" number=true %}
 
@@ -96,4 +96,4 @@ Our assumption is always that all students will learn both the leader and follow
 
 {% include tm__buy_manual.html %}
 
-* Tango Manual Version 1.0 *
+*This is version 1.0 of the Tango Manual*
