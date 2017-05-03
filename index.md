@@ -12,6 +12,8 @@ The intent is to support tango community organizers in smaller communities, and 
 
 The ultimate hope is that this becomes a part of an ecosystem of tools that support the growth of community through social, improvised tango.
 
+The Tango Manual is under active development which means frequent additions and improvements. You are our community and we invite you to take part in both. To suggest an improvement, consult the [instructions](https://github.com/andreimoment/tangomanual#how-to-contribute) or go directly to the [project issues](https://github.com/andreimoment/tangomanual/issues).
+
 ## Useful links if you're just getting started (coming soon!)
 * Info for teachers and curriculum designers
 * Info for organizers and hosts

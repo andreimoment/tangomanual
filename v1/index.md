@@ -7,6 +7,8 @@ manual_version: 1
 
 Pro tip: [Bookmark](bookmark.md) this page on your device!
 
+The Tango Manual is under active development which means frequent additions and improvements. You are our community and we invite you to take part in both. To suggest an improvement, consult the [instructions](https://github.com/andreimoment/tangomanual#how-to-contribute) or go directly to the [project issues](https://github.com/andreimoment/tangomanual/issues).
+
 **Please note:** Our assumption is always that both men and women will learn both roles. We would like for the manual's convention with pronouns to be easy, clear, and also make everyone feel comfortable and included. For the sake of ease and clarity, we have defaulted to masculine pronouns when referencing leader, and feminine pronouns when referencing follower. 
 
 {% include tm__section_title.html section=1 size="2" number=true %}
