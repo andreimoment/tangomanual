@@ -24,6 +24,8 @@ The ultimate hope is that this becomes a part of an ecosystem of tools that supp
 * BUDDY - A tango learner who is qualified and prepared to teach this mission
 * ZONE - A zone is a set of technique drills, exercises or practice games that you are never really "done" with.
 
+Here is a [glossary of terms](http://tangomanual.com/v1/appendix/glossary-of-terms) we are using in this manual.
+
 ## Our values
 
 We seek to model and expand values that support connection, including: 
