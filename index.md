@@ -22,6 +22,7 @@ The ultimate hope is that this becomes a part of an ecosystem of tools that supp
 ## Basic language
 * RING - A tango level. Each ring is a different color and has a different theme. 
 * MISSION - A mission is a unit of nano-learning with a specific learning outcome. Missions that teach new movement material have this [anatomy](http://tangomanual.com/v1/appendix/anatomy-of-a-mission)
+* BUDDY - A tango learner who is qualified and prepared to teach this mission
 * ZONE - A zone is a set of technique drills, exercises or practice games that you are never really "done" with.
 
 ## Our values
