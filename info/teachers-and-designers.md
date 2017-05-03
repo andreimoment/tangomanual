@@ -1,5 +1,5 @@
 ---
-title: "Information for Teachers and Curriculum Designers"
+title: "Tango Manual - Information for Teachers and Curriculum Designers"
 ---
 
 # Information for Teachers and Curriculum Designers
