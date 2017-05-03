@@ -7,6 +7,8 @@ manual_version: 1
 
 Pro tip: [Bookmark](bookmark.md) this page on your device!
 
+**Please note:** Our assumption is always that both men and women will learn both roles. We would like for the manual's convention with pronouns to be easy, clear, and also make everyone feel comfortable and included. For the sake of ease and clarity, we have defaulted to masculine pronouns when referencing leader, and feminine pronouns when referencing follower. 
+
 {% include tm__section_title.html section=1 size="2" number=true %}
 
 ### [1-A Mirror Game](1-a.md)
