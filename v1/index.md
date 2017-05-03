@@ -92,6 +92,6 @@ The Tango Manual is under active development which means frequent additions and 
 
 ### Tango Roles and Gender Pronouns
 
-Our assumption is always that both men and women will learn both roles. We would like for the manual's convention with pronouns to be easy, clear, and also make everyone feel comfortable and included. For the sake of ease and clarity, we have defaulted to masculine pronouns when referencing leader, and feminine pronouns when referencing follower. 
+Our assumption is always that all students will learn both the leader and follower roles. For the sake of ease and clarity, we have defaulted to *masculine* pronouns when referencing *leader*, and *feminine* pronouns when referencing *follower*. We would like for the manual's convention with pronouns to be easy and clear. We are also aware that humans of the full gender spectrum are learning Tango and we embrace us all. It is our hope that everyone feels comfortable and included.
 
 {% include tm__buy_manual.html %}
