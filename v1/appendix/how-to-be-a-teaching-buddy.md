@@ -1,12 +1,11 @@
 ---
-title: "How to Be A Teaching Buddy"
+title: "How to Be A Teaching Buddy (A Crash Course)"
 manual_version: 1
 section: 9
-mission: A
+mission: D
 ---
 
 {% include tm__appendix_header.html %}
-(A Crash Course)
 
 * The lesson plans are just suggestions, take it or leave it. The important thing is finding a good connection, so feel free to improvise a bit or do whatever feels supportive for both. 
 * Most beginners are very anxious about taking up "too much" of your time. When they are rushing it is harder to learn. Help them relax with by moving and talking slowly, and using phrases like this: 
