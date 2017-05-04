@@ -14,7 +14,7 @@ The intent is to support tango community organizers in smaller communities, and 
 
 It is our hope that this becomes a part of an ecosystem of tools that support the growth of community through social, improvised tango.
 
-### Active, Community-driven Project
+### Active, community-driven project
 
 The Tango Manual is under active development which means frequent additions and improvements. You are our community and we invite you to take part in both. To suggest an improvement, consult the [instructions](https://github.com/andreimoment/tangomanual#how-to-contribute) or go directly to the [project issues](https://github.com/andreimoment/tangomanual/issues).
 
