@@ -5,7 +5,7 @@ manual_version: 1
 
 # Tango Manual: Learning Missions
 
-[Bookmark](bookmark.md) this page on your device! [Important Notes](#active-community-driven-project)
+[Bookmark](bookmark.md) me on your phone! [Important notes](#active-community-driven-project)
 
 {% include tm__section_title.html section=1 size="2" number=true %}
 
@@ -100,4 +100,4 @@ Our assumption is that all students will learn and dance both the leader and fol
 
 *This is version 1.0 of the Tango Manual*
 
-[&larr; Home](../index.html)
+[&larr; Home](../index.html) | [Top &uarr;](#tango-manual-learning-missions)
