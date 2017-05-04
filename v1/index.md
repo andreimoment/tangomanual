@@ -86,7 +86,7 @@ Tip: [Bookmark](bookmark.md) this page on your device! [Important Notes](#this-p
 
 ---
 
-### This Project is Alive and You are Invited to Contribute
+### Active, Community-driven Project
 
 The Tango Manual is under active development which means frequent additions and improvements. You are our community and we invite you to take part in both. To suggest an improvement, consult the [instructions](https://github.com/andreimoment/tangomanual#how-to-contribute) or go directly to the [project issues](https://github.com/andreimoment/tangomanual/issues).
 
