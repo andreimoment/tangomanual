@@ -2,7 +2,7 @@
 title: "Anatomy of a Mission"
 manual_version: 1
 section: 9
-mission: A
+mission: E
 ---
 
 {% include tm__appendix_header.html %}
