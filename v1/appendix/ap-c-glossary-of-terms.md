@@ -5,7 +5,7 @@ section: 9
 mission: C
 ---
 
-{% include tm__appendix_header.html %}
+{% include tm/appendix_header.html %}
 
 **Advancing:** The couple takes a step in which the leader steps toward the follower's space
 
@@ -75,4 +75,4 @@ mission: C
 
 **Upstream:** Going against the line of dance, e.g., clockwise
 
-{% include appendix_footer.html %}
+{% include tm/appendix_footer.html %}

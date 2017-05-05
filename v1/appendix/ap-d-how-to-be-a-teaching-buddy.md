@@ -5,7 +5,7 @@ section: 9
 mission: D
 ---
 
-{% include tm__appendix_header.html %}
+{% include tm/appendix_header.html %}
 
 * The lesson plans are just suggestions, take it or leave it. The important thing is finding a good connection, so feel free to improvise a bit or do whatever feels supportive for both. 
 * Most beginners are very anxious about taking up "too much" of your time. When they are rushing it is harder to learn. Help them relax with by moving and talking slowly, and using phrases like this: 
@@ -29,4 +29,4 @@ mission: D
 * At the end, encourage them to continue. You can say, "Okay, now find someone to practice with." or "See you next week?" 
 
 
-{% include appendix_footer.html %}
+{% include tm/appendix_footer.html %}

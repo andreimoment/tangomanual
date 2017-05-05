@@ -12,4 +12,4 @@ title: "Tango Manual - Information for Total Beginners"
 ### Sub section
 
 
-{% include tm__info_footer.html %}
+{% include tm/info_footer.html %}

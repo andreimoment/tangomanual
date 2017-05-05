@@ -57,9 +57,7 @@ Please let us know if you recognize the work of any other tango professional in 
 
 The concept of peer-to-peer learning has been developed at Oxygen Tango with the help and support of Alex Bartos, [Andrei Andreev](http://andreimoment.com), and Thomas Fischer. The manual project is currently maintained and edited by Mitra Martin.
 
-## Your own personal tango manual workbook and journal
-
-Do you want to keep track of your progress through missions, and keep all your notes about your tango learning journey in one adorable place? Then get the Operating Manual for Tango Multiplayer Game and Journal! [Learn more and purchase on Lulu.com](http://www.lulu.com/shop/mitra-martin/operating-manual-for-tango/paperback/product-23156231.html).
+{% include tm/buy_manual.html %}
 
 ---
-{% include tm__feedback.html %}
+{% include tm/general_feedback.html %}

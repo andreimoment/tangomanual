@@ -5,7 +5,7 @@ section: 9
 mission: E
 ---
 
-{% include tm__appendix_header.html %}
+{% include tm/appendix_header.html %}
 
 Lots of missions teach new movement material. Here is how they work: 
 
@@ -46,4 +46,4 @@ Lots of missions teach new movement material. Here is how they work:
 * **Record your progress:** Write down the date and buddy name on the mission page in your manual.
 * **Improve the system:** Make notes in your manual, and [send suggestions](https://github.com/andreimoment/tangomanual/issues) to the mission writers. 
 
-{% include appendix_footer.html %}
+{% include tm/appendix_footer.html %}

@@ -7,7 +7,7 @@ mission: B
 
 Content TBA
 
-{% include tm__appendix_header.html %}
+{% include tm/appendix_header.html %}
 
 
-{% include appendix_footer.html %}
+{% include tm/appendix_footer.html %}

@@ -7,7 +7,7 @@ youtube: "vSjX02FIZCk"
 redirect_from: "/v1/1-A-test"
 ---
 
-{% include tm__mission_header.html %}
+{% include tm/mission_header.html %}
 
 ## Description
 
@@ -27,5 +27,5 @@ redirect_from: "/v1/1-A-test"
 
 {% include youtube_embed.html id=page.youtube %}
 
-{% include mission_footer.html %}
+{% include tm/mission_footer.html %}
 

@@ -9,7 +9,7 @@ youtube:
     - "v_aLOHMilBE"
 ---
 
-{% include tm__mission_header.html %}
+{% include tm/mission_header.html %}
 
 ## Description
 
@@ -40,4 +40,4 @@ Tons of variations on this one!
 
 {% include youtube_embed.html id=page.youtube %}
 
-{% include mission_footer.html %}
+{% include tm/mission_footer.html %}
