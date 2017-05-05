@@ -2,6 +2,8 @@
 ---
 {% if jekyll.environment == "production" %}
 @import "{{ site.theme }}";
+{% else %}
+@import "dev_site_theme.scss";
 {% endif %}
 
 .section-title {
