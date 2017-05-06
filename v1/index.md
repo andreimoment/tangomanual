@@ -38,9 +38,9 @@ manual_version: 1
 
 ### [4-A Abrazo Touch](4-a.md)
 ### [4-B Ronda Monopoly](4-b.md)
-### [4-C On-The-Body [Apilado]](4-c.md)
+### [4-C On-The-Body (Apilado)](4-c.md)
 ### [4-D Open/Close](4-d.md)
-### [4-E Inline Walking [Caminar]](4-e.md)
+### [4-E Inline Walking (Caminar)](4-e.md)
 ### [4-F Clock Game - Bonus](4-f.md)
 ### [4-G Vaiven - Bonus](4-g.md)
 
@@ -58,7 +58,7 @@ manual_version: 1
 
 ### [6-A Classic Hugward](6-a.md)
 ### [6-B Classic Handward](6-b.md)
-### [6-C First Full Turn [Full Turn Handward]](6-c.md)
+### [6-C First Full Turn (Full Turn Handward)](6-c.md)
 ### [6-D The Barrida](6-d.md)
 ### [6-E The Pugliese Turn](6-e.md)
 ### [6-F Contraboleo - Bonus](6-f.md)
