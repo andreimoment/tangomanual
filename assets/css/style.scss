@@ -2,10 +2,13 @@
 ---
 {% if jekyll.environment == "production" %}
 @import "{{ site.theme }}";
+@import "tm_additions";
+@import "blog_additions";
 {% else %}
 @import "dev_site_theme.scss";
-{% endif %}
-
 @import "tm_additions.scss";
 @import "blog_additions.scss";
+{% endif %}
+
+
 
