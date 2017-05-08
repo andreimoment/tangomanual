@@ -6,65 +6,6 @@
 @import "dev_site_theme.scss";
 {% endif %}
 
-.section-title {
-  position: relative;
-}
-.section-title:before {
-  position: absolute;
-  content: "";
-  width: .8em;
-  height: .8em;
-  border-radius: 50%;
-  left: -1.1em;
-  top: .2em;
-}
+@import "tm_additions.scss";
+@import "blog_additions.scss";
 
-.section-title.red:before { background-color: red; }
-.section-title.orange:before { background-color: orange; }
-.section-title.yellow:before { background-color: yellow; }
-.section-title.green:before { background-color: green; }
-.section-title.blue:before { background-color: blue; }
-.section-title.purple:before { background-color: purple; }
-.section-title.pink:before { background-color: pink; }
-.section-title.black:before { background-color: black; }
-
-
-.section-title.white:before {
-  border: 2px solid #ccc;
-  width: .7em;
-  height: .7em;
-}
-
-// make videos responsive
-
-.video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-bottom: 54%;
-  padding-top: 25px;
-  height: 0;
-}
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-
-// make the container responsive and add margins for small screens
-
-.container {
-  max-width: 960px;
-  padding-bottom: 1.4em;
-  padding-top: 1.4em;
-}
-
-@media (max-width: 979px) {
-  .container {
-    margin-left: 1.7rem;
-    margin-right: 1.7rem;
-    max-width: 90%;
-  }
-}

@@ -1,0 +1,25 @@
+---
+layout: blog
+---
+
+<h4><div class="links"><a href="/">TangoManual.com</a>/<a href="/blog">blog</a></h4>
+
+<article class="post">
+  <h1>
+    {{ page.title }}
+    {% if page.subtitle %}<small>{{ page.subtitle }}</small>{% endif %}
+  </h1>
+
+  <div class="byline">
+    By {{ page.author }}, {{ page.date | date: "%B %e, %Y" }}
+  </div>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+</article>
+
+<hr>
+
+<div class="links"><a href="/blog/">&larr; All Posts</a> </div>

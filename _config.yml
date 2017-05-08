@@ -2,3 +2,5 @@ gems:
   - jekyll-readme-index
   - jekyll-redirect-from
   - jemoji
+
+permalink: "/blog/:year/:month/:day/:title/"
