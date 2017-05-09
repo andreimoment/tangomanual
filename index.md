@@ -10,13 +10,15 @@ title: Tango Manual
 
 This free, open-source, collaboratively-edited curriculum provides structure for the first 30-60 hours of beginner-level tango learning. It consists of easy-to-use learning missions with teaching instrucitons and videos that intermediate and advanced dancers can use to integrate newcomers to tango.
 
-We believe that a systematic, well-tested, evolving curriculum will be especially useful to tango community organizers, tango university clubs.
-
 ### Peer-to-peer learning
 
 The missions are designed for peer-to-peer learning and involve one-on-one sessions for each lesson, for each student. These one-on-one sessions bring together teaching tailored to the particular student's level and abilities, and deep learning-while-teaching for the more advanced dancer (buddy) presenting the material. 
 
 In our experience, the peer-to-peer learning process results in the emergence of strong, well-connected communities. We are very excited to see it applied on a large scale.
+
+### For tango community organizers and university tango clubs
+
+We know that tango community organizers in smaller communities and in university tango clubs need to to regularly bring new curriculum. We believe that a systematic, well-tested, evolving curriculum can be especially useful to such organizers as well as any organization intending to bring tango to its members. 
 
 ### Active, community-driven project
 
