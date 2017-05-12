@@ -84,6 +84,14 @@ manual_version: 1
 ### [8-C Switch!](8-c.md)
 ### [8-D Constraints Tanda](8-d.md)
 
+{% include tm/section_title.html section=9 size="2" number=true %}
+
+### AP-A The 12 Fundamental Techniques of Tango (TBA)
+### AP-B How This Manual Works (TBA)
+### [AP-C Glossary of Terms](appendix/ap-c-glossary-of-terms.md)
+### [AP-D How to Be A Teaching Buddy (A Crash Course)](appendix/ap-d-how-to-be-a-teaching-buddy.md)
+### [AP-E Anatomy of a Mission](appendix/ap-e-anatomy-of-a-mission.md)
+
 ---
 
 ### Active, Community-driven Project
