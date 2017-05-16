@@ -36,8 +36,8 @@ manual_version: 1
 
 {% include tm/section_title.html section=4 size="2" number=true %}
 
-### [4-A Quality of Embrace (Abrazo Touch)](4-a.md)
-### [4-B Ronda Monopoly](4-b.md)
+### [4-A Embrace Breath (Abrazo Touch)](4-a.md)
+### [4-B Ronda Rocks](4-b.md)
 ### [4-C On-The-Body (Apilado)](4-c.md)
 ### [4-D Open/Close](4-d.md)
 ### [4-E Inline Walking (Caminar)](4-e.md)
