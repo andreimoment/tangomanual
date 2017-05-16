@@ -42,7 +42,7 @@ manual_version: 1
 ### [4-D Open/Close](4-d.md)
 ### [4-E Inline Walking (Caminar)](4-e.md)
 ### [4-F Clock Game - Bonus](4-f.md)
-### [4-G Vaiven - Bonus](4-g.md)
+### [4-G Come & Go (Vaiven) - Bonus](4-g.md)
 
 {% include tm/section_title.html section=5 size="2" number=true %}
 
