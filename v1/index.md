@@ -5,7 +5,7 @@ manual_version: 1
 
 # Tango Manual: Learning Missions
 
-[Bookmark](bookmark.md) me on your phone! [Important notes](#active-community-driven-project)
+[Bookmark](bookmark.md) this! [Important notes &darr;](#active-community-driven-project)
 
 {% include tm/section_title.html section=1 size="2" number=true %}
 
