@@ -86,7 +86,7 @@ manual_version: 1
 
 {% include tm/section_title.html section=9 size="2" number=true %}
 
-### AP-A The 12 Fundamental Techniques of Tango (TBA)
+### [AP-A The 12 Fundamental Techniques of Tango](appendix/ap-a-the-12-fundamental-techniques-of-tango.md)
 ### AP-B How This Manual Works (TBA)
 ### [AP-C Glossary of Terms](appendix/ap-c-glossary-of-terms.md)
 ### [AP-D How to Be A Teaching Buddy (A Crash Course)](appendix/ap-d-how-to-be-a-teaching-buddy.md)
