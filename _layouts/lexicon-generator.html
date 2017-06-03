@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/lexicon.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@0.16.1/dist/tippy.css"></link>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@0.16.1/dist/tippy.min.js"></script>
+
+    <script src="{{ '/assets/js/lexicon-generator.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+
+
+  </head>
+  <body>
+    <div class="container markdown-body">
+      {{ content }}
+    </div>
+
+    {% include ga.html %}
+  </body>
+</html>

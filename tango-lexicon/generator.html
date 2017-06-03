@@ -1,0 +1,50 @@
+---
+title: "Tango Lexicon: Sequence Generator"
+layout: lexicon-generator
+---
+
+<h1>{{ page.title }}</h1>
+
+<div class="lexicon-generator">
+  <form class="form">
+    <div class="field">
+      <label for="systems">System: </label><select id="systems" name="systems">
+        <option value="parallel">
+          Only Parallel
+        </option>
+        <option value="cross">
+          Only Cross
+        </option>
+        <option value="both">
+          Parallel and Cross
+        </option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="moves">Number of moves: </label><select id="moves" name="moves">
+        <option>
+          5
+        </option>
+        <option>
+          8
+        </option>
+        <option>
+          16
+        </option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="as_bullets">Bullet list?</label> <input id="as_bullets" name="as_bullets" type="checkbox" />
+    </div>
+    <div class="field">
+      <input data-js="submit" type="submit" value="Generate!" />
+    </div>
+  </form>
+  <div class="sequence">
+    <p class="instructions js-tooltip" title="tootltip content">
+      Use the form above to generate a sequence!
+    </p>
+    <ul class="js-steps-bullets steps-bullets hidden"></ul>
+    <p class="js-steps-list steps-list"></p>
+  </div>
+</div>

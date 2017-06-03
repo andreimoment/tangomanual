@@ -1,0 +1,49 @@
+---
+---
+.lexicon-generator {
+  .form {
+    margin-bottom: 1em;
+  }
+
+  .field {
+    display: inline-block;
+    margin: .5em .5em;
+  }
+
+  .instructions {
+    margin-bottom: 0;
+  }
+
+  .sequence {
+    display: inline-block;
+    margin: .4em .4em;
+    padding: 1em 1.4em 1em 1em;
+    max-width: 30em;
+    border: 1px solid #d3d3d3;
+    background-color: #fefefe;
+    color: #444;
+    font-size: 1.3em;
+    border-radius: 15px;
+
+    ul {
+      margin: 0 .5em;
+      padding-left: .8em;
+    }
+    li {
+      font-weight: bold;
+      margin: 0;
+    }
+  }
+
+  .steps-list, .instructions {margin-left: 1em; margin-right: .5em;}
+  .steps-list {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .hidden {display: none;}
+}
+
+// body {
+//   background-color: #eee;
+//   font-family: arial, helvetica, sans-serif;
+// }
