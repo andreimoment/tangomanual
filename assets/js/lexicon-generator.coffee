@@ -89,16 +89,17 @@
 
   explanation_from_abbr = (abbr) ->
     explanation = ""
-    _abbr = abbr
+    stored_abbr = abbr
     while abbr.length > 0
       $.each(store.abbr, (i, el) ->
         if abbr.match(i)
-          explanation = explanation.concat(" "+el)
+          expanded = " " + el
+          expanded = "-" + el if ( abbr.length == 1 && abbr[0].match(/[fob]{1}/) && !stored_abbr.match(/t/))
+          explanation = explanation.concat(expanded)
           abbr = abbr.substring(i.length)
       )
-    if _abbr in store.parallel.divergent
+    if stored_abbr in store.parallel.divergent
       explanation = explanation.concat(" (<b>&harr;</b>) ")
-      console.log "divergent step"
 
     explanation
 
