@@ -32,14 +32,13 @@
       explanation_from_abbr = this.explanation_from_abbr
       _(this.generated_sequence).each (el, i) ->
         word = capitalize(dict[el])
-        output = {word: word, title: explanation_from_abbr(el) }
-        output.word = output.word.concat(", ") unless (i+1) >= sequence_size
+        output = {word: word, title: explanation_from_abbr(el), connector: ", " }
+        output.connector = "" if (i+1) >= sequence_size
         r = r.concat(output)
       r
 
   methods:
     generate: ->
-      this.destroy_tooltips()
       this.show.instructions = false
       form_data = this.form_data
       source_list = this.parallel.all if form_data.dance_system == "parallel"
@@ -49,8 +48,6 @@
       this.generate_step(source_list) for [1..form_data.moves]
       this.generated_sequence.length = form_data.moves
       console.log "generate!", form_data.moves, form_data.dance_system
-
-      this.set_tooltips()
 
     generate_step: (list)->
       step = this.get_random_step(list)
@@ -82,37 +79,6 @@
       this.show.word_list = !this.show.word_list
 
 
-    set_tooltips: ->
-      # this.update_tooltips()
-      # vm.tooltips = Tippy(".js-tooltip", {"arrow": true})
-      # update_tooltips = this.update_tooltips
-      # setTimeout ->
-      #   vm.tooltips = Tippy(".js-tooltip", {"arrow": true})
-        # update_tooltips()
-
-      # , 40
-
-
-    destroy_tooltips: ->
-      # return unless vm.tooltips
-      # popper_els = document.getElementsByClassName('js-tooltip')
-      # _(popper_els).each (el) ->
-      #   popper = vm.tooltips.getPopperElement(el)
-      #   console.log "destroying popper", popper
-      #   vm.tooltips.destroy(popper) if vm.tooltips.getTooltippedElement(popper)
-      #   console.log "destroyed popper!"
-
-    update_tooltips: ->
-      # return unless vm.tooltips
-      # popper_els = document.getElementsByClassName('js-tooltip')
-      # _(popper_els).each (el) ->
-      #   popper = vm.tooltips.getPopperElement(el)
-      #   console.log "updating popper", popper
-      #   vm.tooltips.update(popper) if vm.tooltips.getTooltippedElement(popper)
-      #   console.log "updated popper!"
-
-
-
     explanation_from_abbr: (abbr) ->
       explanation = ""
       stored_abbr = abbr
@@ -134,9 +100,6 @@
 
   mounted: ->
     console.log "mounted"
-    # this.set_tooltips()
-
-
 
 
 # @APP = do ->
