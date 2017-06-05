@@ -6,8 +6,7 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/lexicon.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://unpkg.com/lodash@4.17.4"></script>
-
+    <script src="https://unpkg.com/lodash@4.17.4/lodash.min.js"></script>
 
 
   </head>
@@ -18,7 +17,12 @@
 
     {% include ga.html %}
 
-    <script src="https://unpkg.com/vue@2.3.3"></script>
+    {% if jekyll.environment == "production" %}
+      <script src="https://unpkg.com/vue@2.3.3/dist/vue.min.js"></script>
+    {% else %}
+      <script src="https://unpkg.com/vue@2.3.3"></script>
+    {% endif %}
+
     <script src="{{ '/assets/js/lexicon-generator-vue.js?v=' | append: site.github.build_revision | relative_url }}"></script>
   </body>
 </html>
