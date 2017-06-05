@@ -33,7 +33,7 @@
       padding: 0;
       border: none;
       background: none;
-      cursor: default;
+      cursor: pointer;
     }
 
     ul {
@@ -57,6 +57,19 @@
 
 
 // tooltip
+
+
+.hide-tooltip  {
+  display: none;
+}
+
+@media (max-width: 600px) {
+
+  .hide-tooltip  {
+    display: block;
+  }
+
+}
 
 .tooltip {
   display: block !important;
