@@ -55,7 +55,7 @@ layout: lexicon-generator-vue
 
         <p class="steps-list" v-if="show.word_list">
           <span  v-for="item in formatted_sequence">
-            <button :aria-label="item.title" class="hint--top sequence__word" v-text="item.word"></button><span v-text="item.connector"></span>
+            <button :aria-label="item.title" class="hint--top sequence__word" v-text="item.word + item.connector"></button> <wbr>
           </span>
         </p>
 
