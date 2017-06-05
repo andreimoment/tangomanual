@@ -4,7 +4,7 @@ layout: lexicon-generator-vue
 ---
 <h1>{{ page.title }}</h1>
 
-<div class="lexicon-generator" id="root">
+<div class="lexicon-generator" id="root" onclick="">
     <form class="form">
         <div class="field">
             <label for="dance_system">System: </label>
@@ -48,17 +48,17 @@ layout: lexicon-generator-vue
         </p>
         <ul class="steps-bullets" v-if="show.bullet_list">
           <li v-for="item in formatted_sequence" >
-            <span :aria-label="item.title" v-text="item.word" class="hint--right sequence__word"></span>
+            <button :aria-label="item.title" v-text="item.word" class="hint--right sequence__word"></button>
           </li>
         </ul>
 
 
         <p class="steps-list" v-if="show.word_list">
           <span  v-for="item in formatted_sequence">
-            <span :aria-label="item.title" class="hint--top sequence__word" v-text="item.word"></span><span v-text="item.connector"></span>
+            <button :aria-label="item.title" class="hint--top sequence__word" v-text="item.word"></button><span v-text="item.connector"></span>
           </span>
         </p>
 
     </div>
-    <p class="show-on-small">Tap a step name to see description. Tap <button class="sequence__hide-tooltips">here</button> to hide description.</p>
+    <p class="show-on-small">Tap a step name to see description. Tap <a href="#" onclick="event.preventDefault();">here</a> to hide description.</p>
 </div>
