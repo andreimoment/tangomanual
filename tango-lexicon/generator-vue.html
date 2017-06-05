@@ -43,18 +43,18 @@ layout: lexicon-generator-vue
         </div>
     </form>
     <div class="sequence">
-        <p class="instructions js-tooltip" title="tootltip content" v-if="show.instructions">
+        <p class="instructions" title="tootltip content" v-if="show.instructions">
             Use the form above to generate a sequence!
         </p>
         <ul class="steps-bullets" v-if="show.bullet_list">
           <li v-for="item in formatted_sequence" >
-            <span :aria-label="item.title" class="js-tooltip hint--right" v-text="item.word"></span>
+            <button :aria-label="item.title" class="hint--right sequence__word" v-text="item.word"></button>
           </li>
         </ul>
 
         <p class="steps-list" v-if="show.word_list">
           <span  v-for="item in formatted_sequence">
-            <span :aria-label="item.title" class="hint--top" v-text="item.word"></span><span v-text="item.connector"></span>
+            <button :aria-label="item.title" class="hint--top sequence__word" v-text="item.word"></button><span v-text="item.connector"></span>
           </span>
         </p>
     </div>
