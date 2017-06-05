@@ -48,7 +48,7 @@ layout: lexicon-generator-vue
         </p>
         <ul class="steps-bullets" v-if="show.bullet_list">
           <li v-for="item in formatted_sequence" >
-            <span v-tooltip.right="item.title" v-text="item.word"></span>
+            <span :aria-label="item.title" v-text="item.word" class="hint--right sequence__word"></span>
           </li>
         </ul>
 
@@ -60,5 +60,5 @@ layout: lexicon-generator-vue
         </p>
 
     </div>
-    <p><button>Hide Tooltips</button></p>
+    <p class="show-on-small">Tap a step name to see description. Tap <button class="sequence__hide-tooltips">here</button> to hide description.</p>
 </div>
