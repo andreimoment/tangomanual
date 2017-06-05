@@ -1,6 +1,8 @@
 ---
 ---
 
+Vue.use(VTooltip)
+
 @vm = new Vue
   el: "#root"
   data:

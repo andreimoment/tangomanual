@@ -48,7 +48,7 @@ layout: lexicon-generator-vue
         </p>
         <ul class="steps-bullets" v-if="show.bullet_list">
           <li v-for="item in formatted_sequence" >
-            <button :aria-label="item.title" class="hint--right sequence__word" v-text="item.word"></button>
+            <span v-tooltip.right="item.title" v-text="item.word"></span>
           </li>
         </ul>
 
