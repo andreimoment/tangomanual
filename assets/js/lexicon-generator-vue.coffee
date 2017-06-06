@@ -32,7 +32,7 @@
       explanation_from_abbr = this.explanation_from_abbr
       _(this.generated_sequence).each (el, i) ->
         word = capitalize(dict[el])
-        output = {word: word, title: explanation_from_abbr(el), connector: ", " }
+        output = {word: word, title: explanation_from_abbr(el), connector: "," }
         output.connector = "" if (i+1) >= sequence_size
         r = r.concat(output)
       r
