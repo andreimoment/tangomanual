@@ -1,0 +1,25 @@
+{% if page.title and page.section and page.mission %}
+  {% capture the_title %}{{ page.section }}-{{page.mission}} {{ page.title }}{% endcapture %}
+{% else %}
+  {% capture the_title %}{{ page.title }}{% endcapture %}
+{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ the_title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <div class="container markdown-body">
+      {% include tm/mission_header.html %}
+
+      {{ content }}
+
+      {% include tm/mission_footer.html %}
+    </div>
+
+    {% include ga.html %}
+  </body>
+</html>

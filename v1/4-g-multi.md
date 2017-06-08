@@ -7,6 +7,7 @@ youtube:
     - "v_aLOHMilBE"
     - "v_aLOHMilBE"
     - "v_aLOHMilBE"
+layout: mission
 ---
 
 {% include tm/mission_header.html %}
