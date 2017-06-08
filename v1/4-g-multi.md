@@ -10,7 +10,7 @@ youtube:
 layout: mission
 ---
 
-{% include tm/mission_header.html %}
+
 
 ## Description
 
@@ -41,4 +41,4 @@ Tons of variations on this one!
 
 {% include youtube_embed.html id=page.youtube %}
 
-{% include tm/mission_footer.html %}
+
