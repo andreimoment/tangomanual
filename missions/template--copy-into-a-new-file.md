@@ -4,8 +4,8 @@ manual_version: 1
 section: 1
 mission: H
 youtube: "vSjX02FIZCk"
-redirect_from: "/v1/1-h"
-layout: mission
+# redirect_from: "/v1/1-h"
+layout: mission-vue
 ---
 
 
