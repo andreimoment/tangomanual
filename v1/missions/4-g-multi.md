@@ -7,6 +7,7 @@ youtube:
     - "v_aLOHMilBE"
     - "v_aLOHMilBE"
     - "v_aLOHMilBE"
+redirect_from: "/v1/4-g-multu"
 layout: mission
 ---
 

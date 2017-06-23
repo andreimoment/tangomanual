@@ -1,6 +1,7 @@
 ---
 title: "Tango Manual: Learning Missions"
 manual_version: 1
+redirect_from: /v1/missions/index.html
 ---
 
 # Tango Manual: Learning Missions
