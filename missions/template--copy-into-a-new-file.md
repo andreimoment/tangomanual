@@ -1,31 +1,28 @@
 ---
 title: "Mission Name"
-manual_version: 1
-section: 1
-mission: H
 youtube: "vSjX02FIZCk"
-# redirect_from: "/v1/1-h"
 layout: mission-vue
+tags:
+  - tag1
+  - multi-word-tag
 ---
 
+{% include youtube_embed.html id=page.youtube %}
 
-
-## Description
-
-### Steps
-
-1. Step 1
-2. Step 2
-3. Step 3
-
-### Tips
+## Key Concepts
 
 * Tip 1
 * Tip 2
 * Tip 3
 
-### Watch the mission
+## Infintite Fractal Detail
 
-{% include youtube_embed.html id=page.youtube %}
+Short description
 
-<!-- includes feedback and link to the index -->
+### Steps
+
+* Bullet 1
+* Bullet 2
+
+1. Step 1
+2. Step 2
