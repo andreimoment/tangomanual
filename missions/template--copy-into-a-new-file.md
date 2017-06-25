@@ -9,20 +9,22 @@ tags:
 
 {% include youtube_embed.html id=page.youtube %}
 
-## Key Concepts
+## Checklist
+
+* Cover this,
+* This,
+* And this! 
+
+## More Detail
+
+### Variations
+
+* V1
+* V2
+* V3
+
+### Tips
 
 * Tip 1
 * Tip 2
 * Tip 3
-
-## Infintite Fractal Detail
-
-Short description
-
-### Steps
-
-* Bullet 1
-* Bullet 2
-
-1. Step 1
-2. Step 2
