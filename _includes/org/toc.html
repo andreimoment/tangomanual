@@ -1,0 +1,21 @@
+{% for item in page.toc %}
+<h3>{{ item.level }}</h3>
+{% for mission in item.missions %}
+<li><a href="/missions/{{ mission[0] }}">{{mission[1]}}</a></li>
+{% endfor %}
+{% endfor %}
+
+
+<script type="text/javascript">
+  var toc = [];
+  var item = {};
+  {% for item in page.toc %}
+  item.level = "{{ item.level }}";
+  item.missions = [];
+
+  {% for mission in item.missions %}
+  item.missions.push({"{{mission[0]}}": "{{mission[1]}}"})
+  {% endfor %}
+  toc.push(item)
+  {% endfor %}
+</script>
