@@ -29,7 +29,7 @@
 
 </noscript>
 
-<div id="app">
+<div id="app" v-cloak>
 
 
 
@@ -61,6 +61,8 @@
   <p v-if="current_mission">
     <a href="#" v-on:click.prevent="close_mission" title="Please use this link, your browser's back button won't work.">&larr; Back to list of missions ({{ page_data.title }})</a>
   </p>
+
+
 
 </div>
 
