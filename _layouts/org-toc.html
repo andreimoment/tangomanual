@@ -32,22 +32,33 @@
         el: "#app",
         data: {
           current_mission: null,
-          toc: toc
+          toc: page_data.toc,
+          page_data: page_data,
+          current_title: page_data.title,
         },
 
         methods: {
-          load_mission: function(mid) {
-            console.log("loading: " + mid)
-            axios.get("/missions/"+ mid +"/index.html")
+          open_mission: function(mission) {
+            console.log("loading: " + mission.mid)
+            axios.get("/missions/"+ mission.mid +"/index.html")
               .then(function(response){
-                app.current_mission = response.data;
+                app.current_mission = {html: response.data, title: mission.mname};
+                app.current_title = mission.mname;
                 console.log(response);
               })
           },
 
           close_mission: function() {
             console.log("closing mission!");
-            current_mission = null;
+            app.current_mission = null;
+            app.current_title = page_data.title;
+          },
+
+          update_history_hash: function(event) {
+            if (current_mission) {
+              this.close_mission;
+              event.preventDefault();
+            }
           }
 
         },
@@ -55,14 +66,19 @@
 
         },
         mounted: function(){
-        //   axios.get("/missions/1/index.html")
-        //     .then(function(response){
-        //       console.log(response);
-        //       missions.push(response.data)
-        //     })
+          // this.nextTick(function() {
+            window.onhashchange = function() {
+              alert("back!");
+             this.update_history_hash;
+            }
+
+          // })
+
         }
 
       });
+
+
     </script>
 
     {% include ga.html %}

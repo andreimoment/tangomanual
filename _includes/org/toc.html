@@ -1,44 +1,67 @@
 <!-- set the missions for display -->
 <script type="text/javascript">
-  var toc = [];
-  var item = {};
+  var page_data = {
+    org_name: "{{page.org_name}}",
+    org_url: "{{page.org_url}}",
+    toc: [],
+    title: "{{ page.title }}",
+  };
+
+  var item;
   {% for item in page.toc %}
   item = {};
   item.level = "{{ item.level }}";
   item.missions = [];
 
   {% for mission in item.missions %}
-  item.missions.push({mname:"{{mission[1]}}", mid:"{{mission[0]}}"})
+  item.missions.push({mname:"{{mission[1]}}", mid:"{{mission[0]}}"});
   {% endfor %}
-  toc.push(item)
+  page_data.toc.push(item)
   {% endfor %}
 </script>
 
 {% raw %}
 
+<noscript>
+  <h2>Please enable Javascript to view the content of this site.</h2>
+  <p>We use three JavaScript libraries: Vue.js, axios and Google Analytics. Vue.js and axios are necessary for viewing the content of the learning missions. Google Analytics allows us to track site use and is optional.</p>
+  <hr>
+
+</noscript>
+
 <div id="app">
+
+
+
+  <p v-if="current_mission">
+    <a :href="'/org/'+page_data.org_url">{{ page_data.org_name }}</a>
+    /
+    <a href="#" v-on:click.prevent="close_mission" title="Please use this link, your browser's back button won't work.">{{ page_data.title }}</a>
+    / {{ current_mission.title }}
+  </p>
+  <p v-else>
+    <a :href="'/org/'+page_data.org_url">{{ page_data.org_name }}</a>
+  </p>
+
+  <h1 v-if="current_mission"><a href="#" v-on:click.prevent="close_mission">&larr; {{ current_title }}</a></h1>
+  <h1 v-else>{{ current_title }}</h1>
 
   <div class="level" v-for="item in toc" v-if="!current_mission">
     <h3 >{{ item.level }}</h3>
     <ul>
       <li v-for="mission in item.missions">
-        <a :href="'/missions/'+mission.mid" v-on:click.prevent="load_mission(mission.mid)">{{mission.mname }}</a>
+        <a :href="'/missions/'+mission.mid" v-on:click.prevent="open_mission(mission)">{{mission.mname }}</a>
       </li>
     </ul>
   </div>
 
-  <div v-if="current_mission" v-html="current_mission"></div>
+
+  <div v-if="current_mission" v-html="current_mission.html"></div>
+  <hr>
+  <p v-if="current_mission">
+    <a href="#" v-on:click.prevent="close_mission" title="Please use this link, your browser's back button won't work.">&larr; Back to list of missions ({{ page_data.title }})</a>
+  </p>
 
 </div>
 
 {% endraw %}
-
-{% for item in page.toc %}
-<h3>{{ item.level }}</h3>
-{% for mission in item.missions %}
-<li><a href="/missions/{{ mission[0] }}">{{mission[1]}}</a></li>
-{% endfor %}
-{% endfor %}
-
-
-

@@ -1,5 +1,5 @@
 ---
-title: Test TOC2
+title: "Caltec - 2017"
 
 # make sure to use the exact same identations
 # for the list below. Each level is indented by 2 spaces.
@@ -17,8 +17,8 @@ toc:                    # think of this as nested bullet lists:
 
 # do not change below this line!
 layout: org-toc
+org_url: test
+org_name: "Caltec Tango Club"
 ---
-
-# {{ page.title }}
 
 {% include org/toc.html %}
