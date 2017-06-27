@@ -1,3 +1,38 @@
+<!-- set the missions for display -->
+<script type="text/javascript">
+  var toc = [];
+  var item = {};
+  {% for item in page.toc %}
+  item = {};
+  item.level = "{{ item.level }}";
+  item.missions = [];
+
+  {% for mission in item.missions %}
+  item.missions.push({mname:"{{mission[1]}}", mid:"{{mission[0]}}"})
+  {% endfor %}
+  toc.push(item)
+  {% endfor %}
+</script>
+
+{% raw %}
+
+<div id="app">
+
+  <div class="level" v-for="item in toc" v-if="!current_mission">
+    <h3 >{{ item.level }}</h3>
+    <ul>
+      <li v-for="mission in item.missions">
+        <a :href="'/missions/'+mission.mid" v-on:click.prevent="load_mission(mission.mid)">{{mission.mname }}</a>
+      </li>
+    </ul>
+  </div>
+
+  <div v-if="current_mission" v-html="current_mission"></div>
+
+</div>
+
+{% endraw %}
+
 {% for item in page.toc %}
 <h3>{{ item.level }}</h3>
 {% for mission in item.missions %}
@@ -6,16 +41,4 @@
 {% endfor %}
 
 
-<script type="text/javascript">
-  var toc = [];
-  var item = {};
-  {% for item in page.toc %}
-  item.level = "{{ item.level }}";
-  item.missions = [];
 
-  {% for mission in item.missions %}
-  item.missions.push({"{{mission[0]}}": "{{mission[1]}}"})
-  {% endfor %}
-  toc.push(item)
-  {% endfor %}
-</script>

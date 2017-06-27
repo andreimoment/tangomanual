@@ -17,14 +17,53 @@
 
       {{ content }}
 
-      {% include tm/mission_footer.html %}
+      <!-- {% include tm/mission_footer.html %} -->
     </div>
 
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     {% if jekyll.environment == "production" %}
       <script src="https://unpkg.com/vue@2.3.3/dist/vue.min.js"></script>
     {% else %}
       <script src="https://unpkg.com/vue@2.3.3"></script>
     {% endif %}
+
+    <script type="text/javascript">
+      var app = new Vue({
+        el: "#app",
+        data: {
+          current_mission: null,
+          toc: toc
+        },
+
+        methods: {
+          load_mission: function(mid) {
+            console.log("loading: " + mid)
+            axios.get("/missions/"+ mid +"/index.html")
+              .then(function(response){
+                app.current_mission = response.data;
+                console.log(response);
+              })
+          },
+
+          close_mission: function() {
+            console.log("closing mission!");
+            current_mission = null;
+          }
+
+        },
+        computed: {
+
+        },
+        mounted: function(){
+        //   axios.get("/missions/1/index.html")
+        //     .then(function(response){
+        //       console.log(response);
+        //       missions.push(response.data)
+        //     })
+        }
+
+      });
+    </script>
 
     {% include ga.html %}
   </body>
