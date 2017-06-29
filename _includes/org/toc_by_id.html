@@ -30,8 +30,8 @@
   {% endfor %}
 
   <hr>
-  <h5>Please enable JavaScript. Right now you're viewing the content without proper formatting and without titles on the mission pages.</h5>
-  <p>We use three JavaScript libraries: Vue.js, axios and Google Analytics. Vue.js and axios are necessary for viewing the content of the learning missions. Google Analytics allows us to track site use and is optional.</p>
+  <h5>Please enable JavaScript. Currently you're viewing the no-javascript version of the site which lacks proper formatting, mission titles and full-featured navigation.</h5>
+  <p>We use only three JavaScript libraries: Vue.js, axios and Google Analytics. Vue.js and axios are necessary for viewing the content of the learning missions. Google Analytics allows us to track site use and is optional.</p>
   <hr>
 
 </noscript>
@@ -39,10 +39,30 @@
 {% raw %}
 <div id="app" v-cloak>
 
+  <router-link to="/">TOC</router-link>
+  <router-link to="/mission">mission</router-link>
+
+  <router-view></router-view>
+
+  <hr>
+
+  <script type="text/x-template" id="mission-component-template">
+    <a :href="'/org/'+page_data.org_url">{{ app.page_data.org_name }}</a>
+    /
+  </script>
+
+
+
+  <hr>
+
+
+
+
+
   <p v-if="current_mission">
     <a :href="'/org/'+page_data.org_url">{{ page_data.org_name }}</a>
     /
-    <a href="#" v-on:click.prevent="close_mission" title="Please use this link, your browser's back button won't work.">{{ page_data.title }} </a>
+    <a href="#" v-on:click.prevent="close_mission">{{ page_data.title }} </a>
     /
   </p>
   <p v-else>

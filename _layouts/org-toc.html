@@ -31,8 +31,36 @@
 
     <script type="text/javascript">
 
+
+
+
+      var toc_component = Vue.component('toc-component', {
+        template: '<div>TOC</div>',
+        data: function() {
+          return this.page_data
+        }
+      })
+
+      var mission_component = Vue.component('mission-component', {
+        template: '#mission-component-template',
+        data: function() {
+          return this.page_data
+        }
+      })
+
+      var routes = [
+        { path: '/', component: toc_component },
+        { path: '/mission', component: mission_component },
+      ]
+
+      var router = new VueRouter({
+        routes: routes
+      })
+
+
       var app = new Vue({
         el: "#app",
+        router: router,
         data: {
           current_mission: null,
           toc: page_data.toc,
@@ -68,18 +96,11 @@
         computed: {
 
         },
-        mounted: function(){
-          // this.nextTick(function() {
-            window.onhashchange = function() {
-              alert("back!");
-             this.update_history_hash;
-            }
+        mounted: function(){}
 
-          // })
+      }); // vue
 
-        }
 
-      });
 
 
     </script>
