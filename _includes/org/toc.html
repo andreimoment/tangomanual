@@ -20,30 +20,38 @@
   {% endfor %}
 </script>
 
-{% raw %}
-
 <noscript>
-  <h2>Please enable Javascript to view the content of this site.</h2>
+  <h1>{{ page.title }}</h1>
+  {% for item in page.toc %}
+  <h3>{{item.level}}</h3>
+  <ul>
+  {% for mission in item.missions %}<li><a href="/missions/{{mission[0]}}">{{mission[1]}}</a></li>{% endfor %}
+  </ul>
+  {% endfor %}
+
+  <hr>
+  <h5>Please enable JavaScript. Without it, you will still be able to access the content, but without proper formatting and without titles on the mission pages.</h5>
   <p>We use three JavaScript libraries: Vue.js, axios and Google Analytics. Vue.js and axios are necessary for viewing the content of the learning missions. Google Analytics allows us to track site use and is optional.</p>
   <hr>
 
 </noscript>
 
+{% raw %}
 <div id="app" v-cloak>
-
 
 
   <p v-if="current_mission">
     <a :href="'/org/'+page_data.org_url">{{ page_data.org_name }}</a>
     /
-    <a href="#" v-on:click.prevent="close_mission" title="Please use this link, your browser's back button won't work.">{{ page_data.title }}</a>
-    / {{ current_mission.title }}
+    <a href="#" v-on:click.prevent="close_mission" title="Please use this link, your browser's back button won't work.">{{ page_data.title }} </a>
+    /
   </p>
   <p v-else>
-    <a :href="'/org/'+page_data.org_url">{{ page_data.org_name }}</a>
+    <a :href="'/org/'+page_data.org_url">{{ page_data.org_name }}</a> /
   </p>
 
-  <h1 v-if="current_mission"><a href="#" v-on:click.prevent="close_mission">&larr; {{ current_title }}</a></h1>
+
+  <h1 v-if="current_mission"><a href="#" v-on:click.prevent="close_mission">&larr; </a>{{ current_title }}</h1>
   <h1 v-else>{{ current_title }}</h1>
 
   <div class="level" v-for="item in toc" v-if="!current_mission">
