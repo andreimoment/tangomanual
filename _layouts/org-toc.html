@@ -13,11 +13,9 @@
   </head>
   <body>
     <div class="container markdown-body">
-      <!-- {% include tm/mission_header.html %} -->
 
       {{ content }}
 
-      <!-- {% include tm/mission_footer.html %} -->
     </div>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
@@ -31,72 +29,89 @@
 
     <script type="text/javascript">
 
-
-
-
       var toc_component = Vue.component('toc-component', {
-        template: '<div>TOC</div>',
+        props: ["toc","page_title"],
+        template: '#toc-component-template',
         data: function() {
-          return this.page_data
+          return {}
         }
       })
 
       var mission_component = Vue.component('mission-component', {
+        props: ["mission"],
         template: '#mission-component-template',
         data: function() {
-          return this.page_data
+          return {
+            loading: false,
+            error: null,
+            title: null,
+            html: null
+          }
+        },
+
+        methods: {
+          fetch_data() {
+            this.loading = true;
+            this.html = "Fetching mission content...";
+            this.title = this.mission.name;
+            var component_this = this;
+
+            axios.get("/missions/"+ this.mission.id +"/index.html")
+              .then(function(response){
+                component_this.html = response.data;
+                component_this.loading = false;
+                component_this.error = null;
+              })
+              .catch(function(error){
+                component_this.loading = false;
+                component_this.error = error;
+              })
+          }
+        },
+        created: function() {
+          this.fetch_data()
         }
+
       })
 
+      var mission_route_props = function(route) {
+        console.log("mission_route_props")
+        return {mission: {id: route.params.id, name: page_data.mission_names[route.params.id]} }
+      }
+
+      var toc_route_props = function(route) {
+        console.log("mission_route_props")
+        return {toc: page_data.toc, page_title: page_data.title }
+      }
+
       var routes = [
-        { path: '/', component: toc_component },
-        { path: '/mission', component: mission_component },
+        { path: '/', component: toc_component, props: toc_route_props },
+        { path: '/mission/:id', component: mission_component, props: mission_route_props },
       ]
 
       var router = new VueRouter({
         routes: routes
       })
 
-
       var app = new Vue({
         el: "#app",
         router: router,
         data: {
-          current_mission: null,
           toc: page_data.toc,
           page_data: page_data,
           current_title: page_data.title,
         },
-
-        methods: {
-          open_mission: function(mission) {
-            console.log("loading: " + mission.mid)
-            axios.get("/missions/"+ mission.mid +"/index.html")
-              .then(function(response){
-                app.current_mission = {html: response.data, title: mission.mname};
-                app.current_title = mission.mname;
-                console.log(response);
-              })
-          },
-
-          close_mission: function() {
-            console.log("closing mission!");
-            app.current_mission = null;
-            app.current_title = page_data.title;
-          },
-
-          update_history_hash: function(event) {
-            if (current_mission) {
-              this.close_mission;
-              event.preventDefault();
+        computed: {
+          current_mission: function() {
+            if (this.$route.params.id) {
+              return this.$route.params.id
+            } else {
+              return null
             }
           }
-
         },
-        computed: {
 
-        },
-        mounted: function(){}
+        methods: {},
 
       }); // vue
 
