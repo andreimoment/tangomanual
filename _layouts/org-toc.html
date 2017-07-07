@@ -61,6 +61,14 @@
                 component_this.html = response.data;
                 component_this.loading = false;
                 component_this.error = null;
+
+                // console.log("loading: " + location.pathname + location.hash + component_this.title);
+                ga('send', {
+                  hitType: 'pageview',
+                  page: location.pathname + location.hash,
+                  title: component_this.title
+                });
+
               })
               .catch(function(error){
                 component_this.loading = false;
@@ -75,12 +83,10 @@
       })
 
       var mission_route_props = function(route) {
-        console.log("mission_route_props")
         return {mission: {id: route.params.id, name: page_data.mission_names[route.params.id]} }
       }
 
       var toc_route_props = function(route) {
-        console.log("mission_route_props")
         return {toc: page_data.toc, page_title: page_data.title }
       }
 

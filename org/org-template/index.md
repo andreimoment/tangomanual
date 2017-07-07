@@ -1,5 +1,5 @@
 ---
-title: "The ORG-NAME Learning Organization"
+title: "Caltech Tango Club (Sample organization)"
 ---
 
 # {{ page.title }}

@@ -20,11 +20,11 @@ toc:                    # Think of the TOC as nested lists:
       - 9
       - 10
 
-org_name: "The Org Name"
+org_name: "Caltech Tango Club"
 
 # do not change items below this line!
 layout: org-toc
-org_url: org-name   # this should be the same as the folder name
+org_url: org-template   # this should be the same as the folder name
 ---
 
 {% include org/toc_by_id.html %}
