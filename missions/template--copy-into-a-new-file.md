@@ -1,20 +1,24 @@
 ---
 title: "Mission Name"
 youtube: "vSjX02FIZCk"
-layout: mission-vue
+layout: mission-vue[][]
 tags:
   - tag1
   - multi-word-tag
   
-# provide credit to the original authors of the mission material, including yourself.
-# please pay close attention to the empty spaces in front of each entry. mis-alignment will break the builds
+# Provide credit to the original authors of the mission material, including yourself. Please pay close attention to the empty spaces in front of each entry. 
 credits:
   - name: "Homer Simpson"
     role: "Inventor"
     email: homer@simpsons.org
     details: "Originated the idea of playing with oneself in the mirror."
+  - mame: "Lisa Simpson"
+    role: "Voice of Reason"
+    email: lisa@simpsons.org
+    details: "Prevented the end of the world."
 ---
 
+<!-- Includes any youtube videos listed in the data section of the page -->
 {% include youtube_embed.html id=page.youtube %}
 
 ## Checklist
@@ -27,9 +31,9 @@ credits:
 
 ### Variations
 
-* V1
-* V2
-* V3
+* Variation 1
+* Variation 2
+* Variation 3
 
 ### Tips
 
