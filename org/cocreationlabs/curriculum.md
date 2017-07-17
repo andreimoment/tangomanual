@@ -14,7 +14,7 @@ toc:                    # Think of the TOC as nested lists:
       - 5               # tangomanual.com/info/reference-all-missions/
       - 6
 
-org_name: "Caltech Tango Club"
+org_name: "Cocreation Labs"
 
 # do not change items below this line!
 layout: org-toc
