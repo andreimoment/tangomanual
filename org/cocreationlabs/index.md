@@ -6,7 +6,7 @@ title: "Cocreation Labs"
 
 ### Open Curriculums
 
-* [Curriculum Template Link -- you may have multiple curriculums](curriculum-template)
+* [Curriculum Template Link](http://tangomanual.com/org/cocreationlabs/curriculum)
 
 ### About this organization
 
