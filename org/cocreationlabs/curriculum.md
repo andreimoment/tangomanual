@@ -7,8 +7,7 @@ title: "2017 Co-Mentoring Missions"
 toc:                 
   - level: "Toolkit"
     missions:        
-      - 125        
-      - 
+      - 125
 
 org_name: "Cocreation Labs"
 
