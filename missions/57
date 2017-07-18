@@ -1,0 +1,29 @@
+---
+title: "Challenge/Stillness/Mirroring"
+layout: mission-vue
+tags:
+  - tag1
+  - multi-word-tag
+  
+# Provide credit to the original authors of the mission material, including yourself. Please pay close attention to the empty spaces in front of each entry. 
+credits:
+  - name: "Presencing Institute/u.Lab"
+    role: "Inventor"
+    email: homer@simpsons.org
+    details: "Originated the idea of playing with oneself in the mirror."
+---
+
+<!-- Includes any youtube videos listed in the data section of the page -->
+{% include youtube_embed.html id=page.youtube %}
+
+## Help a person access new insight on a complex situation. 
+
+* 2 min timed - Check-Ins
+* 15 mins timed - Focus person shares their story/challenge/unresolved situation
+* 3 mins timed - Stillness to focus on intuition
+* 5-10 mins timed - Partner mirrors back feelings, images, gestures/postures that came up
+* 5-10 mins timed - Both explore ideas that are coming up
+
+### Tips: 
+* No advice!
+
