@@ -1,5 +1,5 @@
 ---
-title: "2017 Co-Mentoring Missions"
+title: "Duologues"
 
 # make sure to use the exact same identations
 # for the list below. Each level is indented by 2 additional spaces.
