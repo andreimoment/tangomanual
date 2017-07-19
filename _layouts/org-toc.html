@@ -62,10 +62,11 @@
                 component_this.loading = false;
                 component_this.error = null;
 
-                // console.log("loading: " + location.pathname + location.hash + component_this.title);
+                console.log("loading: " + location.pathname +" / "+ location.hash +" / "+ component_this.title);
+                ga('set', 'page', location.pathname + location.hash)
                 ga('send', {
                   hitType: 'pageview',
-                  page: location.pathname + location.hash,
+                  // page: location.pathname + location.hash,
                   title: component_this.title
                 });
 
