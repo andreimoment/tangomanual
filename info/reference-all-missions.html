@@ -18,6 +18,7 @@ layout: default
 <tr>
   <td>{{ page["title"] }}</td>
   <td><a href="https://github.com/andreimoment/tangomanual/blob/master/{{ page['path'] }}" title="View on GitHub.">{{ page["path"] }}</a></td>
+  <td>{{ page["name"] | replace: ".md", "" }}</td>
 </tr>
 {% endif %}{% endif %} {% endfor %}
 

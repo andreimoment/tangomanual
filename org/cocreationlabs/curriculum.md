@@ -16,10 +16,11 @@ toc:                    # Think of the TOC as nested lists:
 
 
 org_name: "Cocreation Labs"
+org_url: cocreationlabs   # this should be the same as the folder name
 
 # do not change items below this line!
 layout: org-toc
-org_url: org-template   # this should be the same as the folder name
+
 ---
 
 {% include org/toc_by_id.html %}

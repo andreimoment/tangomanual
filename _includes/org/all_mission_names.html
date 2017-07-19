@@ -1,0 +1,3 @@
+<!-- all mission names: -->
+{% for page in site.pages %} {% if page["path"] contains "missions/" %} {% if page["path"] contains "v1/missions" %} {% else %}
+page_data.mission_names["{{ page['name'] | replace: '.md', '' }}"] = "{{ page['title'] }}"; {% endif %}{% endif %} {% endfor %}

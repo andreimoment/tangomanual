@@ -7,7 +7,7 @@
     mission_names: {}
   };
 
-  {% for mission_name in site.data.mission_names.mission_names %} page_data.mission_names["{{mission_name[0]}}"] = "{{mission_name[1]}}"; {% endfor %}
+  {% include org/all_mission_names.html %}
 
   var item;
   {% for item in page.toc %} item = {level: "{{ item.level }}", missions: [] };

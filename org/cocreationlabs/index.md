@@ -6,7 +6,7 @@ title: "Cocreation Labs"
 
 ### Open Curriculums
 
-* [1:1 Missions Toolkit](http://tangomanual.com/org/cocreationlabs/curriculum)
+* [1:1 Missions Toolkit](curriculum)
 
 ### About this organization
 
