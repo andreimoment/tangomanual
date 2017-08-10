@@ -19,14 +19,7 @@ Follow the Follower| Leader steps to a pre-determined location| Steps to a place
 Floorcraft| Unable to manage couple’s location in space/in relation to other couples| Able to advance in a single lane without passing, bumping, or stalling others
 The Pivot Before The Step| Incomplete pivots, extra pivots, stepping before pivot is completed, pivoting without balance, pivoting with legs apart| A balanced pivot with legs together that prepares lower body for step
 Quality of Embrace| Tense arms, arms press down, gripping with hands, slack hands| Arms and hands are light, supporting presence that is comfortable for partner
-Downbeat and QQS | Moving without reference to music| Steps generally land on the downbeat, and QQS in double-times
-
-### Synthesis
-
-* **Body:** aware of body on fine level and able to use body in precise way 
-* **Heart:** connected with self and partner, generous and caring 
-* **Mind:** able to analyze, deconstruct and reconstruct, identify patterns, create, innovate
-* **Spirit:** open to mystery, available for musical inspiration or inspiration from anywhere 
+Rhythms | Moving without reference to music| Steps generally land on the downbeat, and QQS in double-times
 
 
 {% include tm/appendix_footer.html %}
