@@ -6,6 +6,7 @@ title: The Tango Challenge
 
 ### Open Curriculums
 
+* [Foundations](foundations)
 * [Movement](movement)
 * [Music](music)
 * [Culture](culture)
