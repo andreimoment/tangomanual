@@ -1,5 +1,5 @@
 ---
-title: "Fall - 2017: Learning Missions"
+title: "Movement: Learning Missions"
 
 # make sure to use the exact same identations
 # for the list below. Each level is indented by 2 additional spaces.
