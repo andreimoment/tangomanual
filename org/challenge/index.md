@@ -6,6 +6,6 @@ title: The Tango Challenge
 
 ### Open Curriculums
 
-* [Fall - 2017](fall-2017)
+* [Movement](movement)
 
 ### About the Tango Challenge
