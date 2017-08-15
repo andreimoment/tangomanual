@@ -1,1 +1,1 @@
-### Join the [discussion about this mission](https://www.facebook.com/)! Remember to include mission hashtag. ###
+### Join the [discussion about this mission](https://www.facebook.com/)! (Include mission hashtag.) ###
