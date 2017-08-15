@@ -9,7 +9,11 @@ layout: default
 
 <table>
 
-
+<tr>
+  <th>title</th>
+  <th>hashtag</th>
+  <th>file</th>  
+</tr>
 
 {% for page in site.pages %}
 {% if page["path"] contains "missions/" %}
@@ -17,8 +21,9 @@ layout: default
 
 <tr>
   <td>{{ page["title"] }}</td>
+  <td>{{ page["hashtag"] }}</td>
   <td><a href="https://github.com/andreimoment/tangomanual/blob/master/{{ page['path'] }}" title="View on GitHub.">{{ page["path"] }}</a></td>
-  <td>{{ page["name"] | replace: ".md", "" }}</td>
+  <!-- <td>{{ page["name"] | replace: ".md", "" }}</td> -->
 </tr>
 {% endif %}{% endif %} {% endfor %}
 
