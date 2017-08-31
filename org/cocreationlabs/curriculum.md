@@ -13,6 +13,7 @@ toc:                    # Think of the TOC as nested lists:
       - 4               # For mission reference, see
       - 5               # tangomanual.com/info/reference-all-missions/
       - 6
+      - 58
 
 
 org_name: "Cocreation Labs"
