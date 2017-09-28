@@ -1,11 +1,11 @@
 ---
-title: "Culture: Learning Missions"
+title: "Practica Ethno"
 
 # make sure to use the exact same identations
 # for the list below. Each level is indented by 2 additional spaces.
 
 toc:                    # Think of the TOC as nested lists:
-  - level: "Level 1"    # "level"s and the "missions" list are under "toc"
+  - level: "Music"    # "level"s and the "missions" list are under "toc"
     missions:           # Mission numbers are under "missions".
       - 1               # Note the indentation! ("I belong to the parent above")
       - 2               # And the dashes! ("I am an item in a list")
@@ -13,12 +13,19 @@ toc:                    # Think of the TOC as nested lists:
       - 4               # For mission reference, see
       - 5               # tangomanual.com/info/reference-all-missions/
       - 6
-  - level: "Level 2 ..."
+  - level: "Culture"
     missions:
       - 7
       - 8
       - 9
       - 10
+  - level: "Dance"
+    missions:
+      - 7
+      - 8
+      - 9
+      - 10
+      
 
 org_name: "The Tango Challenge"
 
