@@ -46,7 +46,6 @@ toc:                    # Think of the TOC as nested lists:
   - level: "Facilitate"
     missions:
       - 91
-      - 92
 
 org_name: "The Tango Challenge"
 
