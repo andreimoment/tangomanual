@@ -34,10 +34,9 @@ toc:                    # Think of the TOC as nested lists:
       - 7
   - Area: "More"
     missions:
-      - 7
-      - 8
-      - 9
-      - 10
+      - 73
+      - 74
+      - 75
 
 org_name: "The Tango Challenge"
 
