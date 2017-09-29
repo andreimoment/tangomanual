@@ -5,27 +5,39 @@ title: "Practica Ethno"
 # for the list below. Each level is indented by 2 additional spaces.
 
 toc:                    # Think of the TOC as nested lists:
-  - level: "Music"    # "level"s and the "missions" list are under "toc"
+  - Area: "Music"    # "level"s and the "missions" list are under "toc"
     missions:           # Mission numbers are under "missions".
-      - 1               # Note the indentation! ("I belong to the parent above")
-      - 2               # And the dashes! ("I am an item in a list")
-      - 3               # 
-      - 4               # For mission reference, see
-      - 5               # tangomanual.com/info/reference-all-missions/
+      - 61               # Note the indentation! ("I belong to the parent above")
+      - 62               # And the dashes! ("I am an item in a list")
+      - 63               # 
+      - 64               # For mission reference, see
+      - 65               # tangomanual.com/info/reference-all-missions/
+      - 66
+      - 67
+      - 68
+  - Area: "Culture"
+    missions:
+      - 60
+      - 69
+      - 70
+      - 71
+      - 72
+  - Area: "Dance"
+    missions:
+      - 59
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
       - 6
-  - level: "Culture"
+      - 7
+  - Area: "More"
     missions:
       - 7
       - 8
       - 9
       - 10
-  - level: "Dance"
-    missions:
-      - 7
-      - 8
-      - 9
-      - 10
-      
 
 org_name: "The Tango Challenge"
 
