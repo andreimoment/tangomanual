@@ -5,13 +5,22 @@ title: "First Cabeceo"
 # for the list below. Each level is indented by 2 additional spaces.
 
 toc:                    # Think of the TOC as nested lists:
-  - level: "Culture"    # "level"s and the "missions" list are under "toc"
+  - level: "Practice"    # "level"s and the "missions" list are under "toc"
     missions:           # Mission numbers are under "missions".
-      - 95               # Note the indentation! ("I belong to the parent above")
-      - 96               # And the dashes! ("I am an item in a list")
-      - 101               # 
-      - 102               # For mission reference, see
-      - 94                # tangomanual.com/info/reference-all-missions/
+      - 97               # Note the indentation! ("I belong to the parent above")
+      - 98               # And the dashes! ("I am an item in a list")
+      - 99               # 
+      - 100               # For mission reference, see
+      - 92                # tangomanual.com/info/reference-all-missions/
+      - 93
+      - 117
+  - level: "Culture"
+    missions:
+      - 95
+      - 96
+      - 101
+      - 102
+      - 94
       - 104
       - 105
       - 118
@@ -22,15 +31,6 @@ toc:                    # Think of the TOC as nested lists:
       - 112
       - 113
       - 114
-  - level: "Practice"
-    missions:
-      - 97
-      - 98
-      - 99
-      - 100
-      - 92
-      - 93
-      - 117
   - level: "Dance"
     missions:
       - 115
