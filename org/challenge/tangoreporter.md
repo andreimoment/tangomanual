@@ -11,7 +11,8 @@ toc:                    # Think of the TOC as nested lists:
       - 87               # And the dashes! ("I am an item in a list")
       - 88               # 
       - 85               # For mission reference, see
- - Area: "Culture"       # tangomanual.com/info/reference-all-missions/
+      -                 # tangomanual.com/info/reference-all-missions/
+  - Area: "Culture"
     missions:
       - 78
       - 79
@@ -47,3 +48,5 @@ org_url: challenge
 ---
 
 {% include org/toc_by_id.html %}
+
+
