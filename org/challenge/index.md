@@ -13,6 +13,8 @@ title: The Tango Challenge
 5. DJ Lab
 6. Challenge Feast
 
+[Weekly Journal](http://www.oxygentango.com/journal-tango-challenge)
+
 ### Tango Challenge 2 Milestones
 1. Milonguero Groove
 2. Milonga Tanda
