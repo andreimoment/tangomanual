@@ -21,4 +21,6 @@ title: The Tango Challenge
 5. Switch! Demo
 6. DJ Practica
 
+![tango challenge milestones]({{ site.url }}/assets/images/tango-challenge-milestones.jpg)
+
 ### About the Tango Challenge
