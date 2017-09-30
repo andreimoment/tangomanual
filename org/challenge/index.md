@@ -9,9 +9,9 @@ title: The Tango Challenge
 1. [Practica Ethno](http://tangomanual.com/org/challenge/practicaethno/#/)
 2. [Tango Reporter](http://tangomanual.com/org/challenge/tangoreporter/#/)
 3. [First Cabeceo](http://tangomanual.com/org/challenge/firstcabeceo/#/)
-4. [First Recital](http://tangomanual.com/org/challenge/firstrecital/#/)
+4. First Recital
 5. DJ Lab
-6. [Challenge Feast](http://tangomanual.com/org/challenge/challengefeast/#/)
+6. Challenge Feast
 
 ### Tango Challenge 2 Milestones
 1. Milonguero Groove
