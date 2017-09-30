@@ -18,7 +18,6 @@ toc:                    # Think of the TOC as nested lists:
   - level: "Culture"
     missions:
       - 60
-      - 69
       - 70
       - 71
       - 72
