@@ -23,7 +23,6 @@ toc:                    # Think of the TOC as nested lists:
       - 102
       - 105
       - 108
-      - 109
       - 118
       - 106
       - 94
