@@ -37,10 +37,25 @@ toc:                    # Think of the TOC as nested lists:
       - 150
   - level: "Culture, Deep Etiquette"
     missions:
-      - 60
-      - 70
-      - 71
-      - 72
+      - 101
+      - 102
+      - 105
+      - 168
+      - 108
+      - 107
+      - 113
+      - 118
+      - 106
+      - 161
+      - 102
+      - 76
+      - 123
+      - 124
+      - 164
+      - 165
+      - 163
+      - 167
+      - 166
   - level: "Music, Orchestras, Rhythms, DJing"
     missions:
       - 61
