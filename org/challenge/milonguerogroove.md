@@ -15,7 +15,7 @@ toc:                    # Think of the TOC as nested lists:
       - 5
       - 6
       - 7
-- level: "Practice, Partnering Skills"
+  - level: "Practice, Partnering Skills"
     missions:
       - 60
       - 70
@@ -27,7 +27,7 @@ toc:                    # Think of the TOC as nested lists:
       - 70
       - 71
       - 72
-- level: "Culture, Deep Etiquette"
+  - level: "Culture, Deep Etiquette"
     missions:
       - 60
       - 70
