@@ -17,16 +17,20 @@ toc:                    # Think of the TOC as nested lists:
       - 7
   - level: "Practice, Partnering Skills"
     missions:
-      - 60
-      - 70
-      - 71
-      - 72
+      - 74
+      - 92
+      - 93
+      - 151
+      - 152
+      - 153
+      - 154
+      - 155
+      - 156
   - level: "Structure, Exploration, Creativity"
     missions:
-      - 60
-      - 70
-      - 71
-      - 72
+      - 148
+      - 149
+      - 150
   - level: "Culture, Deep Etiquette"
     missions:
       - 60
