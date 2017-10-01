@@ -7,14 +7,18 @@ title: "Milonguero Groove"
 toc:                    # Think of the TOC as nested lists:
   - level: "Dance, Close Embrace"    # "level"s and the "missions" list are under "toc"
     missions:           # Mission numbers are under "missions".
-      - 1               # Note the indentation! ("I belong to the parent above")
-      - 59              # And the dashes! ("I am an item in a list")
-      - 2               # For mission reference, see
-      - 3               # tangomanual.com/info/reference-all-missions/
-      - 4
-      - 5
-      - 6
-      - 7
+      - 27               # Note the indentation! ("I belong to the parent above")
+      - 28              # And the dashes! ("I am an item in a list")
+      - 29               # For mission reference, see
+      - 30               # tangomanual.com/info/reference-all-missions/
+      - 31
+      - 32
+      - 33
+      - 25
+      - 157
+      - 158
+      - 159
+      - 160
   - level: "Practice, Partnering Skills"
     missions:
       - 74
