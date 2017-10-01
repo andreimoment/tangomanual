@@ -17,9 +17,7 @@ title: The Tango Challenge
 
 ### Tango Challenge 2 Milestones
 
-[Tango Music Quiz!](https://www.el-recodo.com/musicquiz?lang=en#play)
-
-[Weekly Journal](http://www.oxygentango.com/journal-tango-challenge)
+[Tango Music Quiz!](https://www.el-recodo.com/musicquiz?lang=en#play), [Weekly Journal](http://www.oxygentango.com/journal-tango-challenge)
 
 1. [Milonguero Groove](http://tangomanual.com/org/challenge/milonguerogroove/#/)
 2. Milonga Tanda
