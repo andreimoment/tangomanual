@@ -21,7 +21,7 @@ toc:                    # Think of the TOC as nested lists:
       - 70
       - 71
       - 72
-  - level: "Structure, Exploration & Creativity"
+  - level: "Structure, Exploration, Creativity"
     missions:
       - 60
       - 70
@@ -33,7 +33,7 @@ toc:                    # Think of the TOC as nested lists:
       - 70
       - 71
       - 72
-  - level: "Music, Orchestras, Rhythms & DJing"
+  - level: "Music, Orchestras, Rhythms, DJing"
     missions:
       - 61
       - 66
