@@ -6,6 +6,8 @@ title: The Tango Challenge
 
 ### Tango Challenge 1 Milestones
 
+[Weekly Journal](http://www.oxygentango.com/journal-tango-challenge)
+
 1. [Practica Ethno](http://tangomanual.com/org/challenge/practicaethno/#/)
 2. [Tango Reporter](http://tangomanual.com/org/challenge/tangoreporter/#/)
 3. [First Cabeceo](http://tangomanual.com/org/challenge/firstcabeceo/#/)
@@ -13,10 +15,12 @@ title: The Tango Challenge
 5. DJ Lab
 6. Challenge Feast
 
+### Tango Challenge 2 Milestones
+
+[Tango Music Quiz!](https://www.el-recodo.com/musicquiz?lang=en#play)
 [Weekly Journal](http://www.oxygentango.com/journal-tango-challenge)
 
-### Tango Challenge 2 Milestones
-1. Milonguero Groove
+1. [Milonguero Groove](http://tangomanual.com/org/challenge/milonguerogroove/#/)
 2. Milonga Tanda
 3. Vals Tanda
 4. Compact Challenge
