@@ -17,7 +17,7 @@ title: The Tango Challenge
 
 ### Tango Challenge 2 Milestones
 
-[Tango Music Quiz!](https://www.el-recodo.com/musicquiz?lang=en#play), [Weekly Journal](http://www.oxygentango.com/journal-tango-challenge)
+[Weekly Journal](http://www.oxygentango.com/journal-tango-challenge)
 
 1. [Tango Turns](http://tangomanual.com/org/challenge/tangoturns/#/)
 2. Milonga Tanda
@@ -25,7 +25,5 @@ title: The Tango Challenge
 4. Compact Challenge
 5. Switch! Demo
 6. DJ Practica
-
-![tango challenge milestones]({{ site.url }}/assets/images/tango-challenge-milestones.jpg)
 
 ### About the Tango Challenge
