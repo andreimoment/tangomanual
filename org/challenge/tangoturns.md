@@ -1,11 +1,11 @@
 ---
-title: "Milonguero Groove"
+title: "TangoTurns"
 
 # make sure to use the exact same identations
 # for the list below. Each level is indented by 2 additional spaces.
 
 toc:                    # Think of the TOC as nested lists:
-  - level: "Dance, Close Embrace"    # "level"s and the "missions" list are under "toc"
+  - level: "Dance, Turns"    # "level"s and the "missions" list are under "toc"
     missions:           # Mission numbers are under "missions".
       - 27               # Note the indentation! ("I belong to the parent above")
       - 28              # And the dashes! ("I am an item in a list")
@@ -19,7 +19,7 @@ toc:                    # Think of the TOC as nested lists:
       - 158
       - 159
       - 160
-  - level: "Practice, Partnering Skills"
+  - level: "Practice, Partnering Skills, Deep Etiquette"
     missions:
       - 74
       - 92
@@ -30,32 +30,6 @@ toc:                    # Think of the TOC as nested lists:
       - 154
       - 155
       - 156
-  - level: "Structure, Exploration, Creativity"
-    missions:
-      - 148
-      - 149
-      - 150
-  - level: "Culture, Deep Etiquette"
-    missions:
-      - 101
-      - 102
-      - 105
-      - 168
-      - 108
-      - 107
-      - 113
-      - 118
-      - 106
-      - 161
-      - 102
-      - 76
-      - 123
-      - 124
-      - 164
-      - 165
-      - 163
-      - 167
-      - 166
   - level: "Music, Orchestras, Rhythms, DJing"
     missions:
       - 61
