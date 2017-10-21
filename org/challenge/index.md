@@ -19,7 +19,7 @@ title: The Tango Challenge
 
 [Tango Music Quiz!](https://www.el-recodo.com/musicquiz?lang=en#play), [Weekly Journal](http://www.oxygentango.com/journal-tango-challenge)
 
-1. [Milonguero Groove](http://tangomanual.com/org/challenge/milonguerogroove/#/)
+1. [Tango Turns](http://tangomanual.com/org/challenge/tangoturns/#/)
 2. Milonga Tanda
 3. Vals Tanda
 4. Compact Challenge
