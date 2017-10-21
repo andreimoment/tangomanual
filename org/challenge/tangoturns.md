@@ -7,62 +7,46 @@ title: "TangoTurns"
 toc:                    # Think of the TOC as nested lists:
   - level: "Dance, Turns"    # "level"s and the "missions" list are under "toc"
     missions:           # Mission numbers are under "missions".
-      - 27               # Note the indentation! ("I belong to the parent above")
-      - 28              # And the dashes! ("I am an item in a list")
-      - 29               # For mission reference, see
-      - 30               # tangomanual.com/info/reference-all-missions/
-      - 31
-      - 32
-      - 33
-      - 25
-      - 157
-      - 158
-      - 159
-      - 160
-  - level: "Practice, Partnering Skills, Deep Etiquette"
+      - 169               # Note the indentation! ("I belong to the parent above")
+      - 171              # And the dashes! ("I am an item in a list")
+      - 172               # For mission reference, see
+      - 173               # tangomanual.com/info/reference-all-missions/
+      - 148
+      - 34
+      - 35
+      - 36
+      - 170
+      - 38
+      - 40
+      - 174
+      - 39
+      - 175
+  - level: "Practice and Partnering"
     missions:
-      - 74
-      - 92
-      - 93
-      - 151
-      - 152
       - 153
-      - 154
-      - 155
-      - 156
+      - 152
+      - 151
+      - 156 
   - level: "Music, Orchestras, Rhythms, DJing"
     missions:
-      - 61
-      - 66
-      - 67
-      - 126
-      - 127
-      - 128
-      - 129
-      - 119
-      - 131
       - 132
       - 133
       - 134
-      - 135
-      - 136
+      - 128
+      - 88 
+      - 135 
+      - 176
       - 137
       - 138
-      - 139
-      - 140
-      - 85
-      - 141
-      - 142
-      - 143
-  - level: "Facilitate"
+      - 119 
+  - level: "Deep Etiquette"
     missions:
-      - 130
-      - 144
-      - 145
-      - 146
-      - 147
-      - 148
-      - 91
+      - 118
+      - 177
+      - 123
+      - 82
+      - 76
+      - 124
 
 org_name: "The Tango Challenge"
 
