@@ -1,5 +1,5 @@
 ---
-title: "RECIPROCITIES: Albuquerque Tango Festival Missions by Korey Ireland and Mitra Martin"
+title: "RECIPROCITIES: Albuquerque Tango Festival Missions by Korey Ireland & Mitra Martin 2017"
 
 toc:
   - level: "Hands Workshop"    
