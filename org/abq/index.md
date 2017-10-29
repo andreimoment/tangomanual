@@ -1,9 +1,6 @@
 ---
 title: "Albuquerque Tango Festival Missions by Korey Ireland and Mitra Martin"
 
-# make sure to use the exact same identations
-# for the list below. Each level is indented by 2 additional spaces.
-
 toc:
   - level: "Hands Workshop"    
     missions:           
