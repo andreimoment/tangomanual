@@ -12,25 +12,17 @@ toc:
       - 187               
   - level: "Awareness Workshop"
     missions:
-      - 60
-      - 70
-      - 71
-      - 72
-  - level: "Music, do these at team lab - outdoors"
+      - 178
+      - 179
+      - 180
+      - 181
+      - 185
+      - 184
+  - level: "Movement Workshops"
     missions:
-      - 61
-      - 62
-      - 63
-      - 64
-      - 65
-      - 66
-      - 67
-      - 68
-  - level: "More, errands, on your own or together"
-    missions:
-      - 73
-      - 74
-      - 75
+      - 170
+      - 182
+      - 183
 
 org_name: "The Tango Challenge"
 
