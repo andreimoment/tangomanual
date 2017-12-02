@@ -18,18 +18,7 @@ toc:                    # Think of the TOC as nested lists:
     missions:
       - 95
       - 96
-      - 104
-      - 101
-      - 102
-      - 105
-      - 108
-      - 118
-      - 106
       - 94
-      - 107
-      - 113
-      - 112
-      - 114
   - level: "Dance"
     missions:
       - 115
@@ -42,9 +31,6 @@ toc:                    # Think of the TOC as nested lists:
       - 31
       - 32
       - 25
-  - level: "Facilitate"
-    missions:
-      - 91
 
 org_name: "The Tango Challenge"
 
