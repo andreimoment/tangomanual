@@ -21,10 +21,6 @@ toc:                    # Think of the TOC as nested lists:
       - 94
   - level: "Dance"
     missions:
-      - 115
-      - 110
-      - 111
-      - 116
       - 27
       - 29
       - 30 
