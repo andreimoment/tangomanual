@@ -22,13 +22,7 @@ We know that tango community organizers in smaller communities and in university
 
 ### Active, community-driven project
 
-The Tango Manual is under active development which means frequent additions and improvements. You are our community and we invite you to take part in both. To suggest an improvement, consult the [instructions](https://github.com/andreimoment/tangomanual#how-to-contribute) or go directly to the [project issues](https://github.com/andreimoment/tangomanual/issues).
-
-## Useful links if you're just getting started (coming soon!)
-* Info for teachers and curriculum designers
-* Info for organizers and hosts
-* Info for buddies and helpers
-* Info if you're totally new to tango
+The Tango Manual is part of a growing ecosystem of tango learning resources being developed collaboratively by Tango dancers and coordinated by the Tango Hatchery. is a beta test which means it is still evolving. We invite you to participate via the [Tango Hatchery forum](https://www.tangohatchery.com/forum). 
 
 ## Basic language
 * RING - A tango level. Each ring is a different color and has a different theme. 
@@ -61,7 +55,7 @@ Daniel Trenner, David Lampson, Fabienne Bongard, Felipe Martinez, Homer & Cristi
 
 Please let us know if you recognize the work of any other tango professional in the content of this curriculum so that they can be acknowledged.  
 
-The concept of peer-to-peer learning has been developed at Oxygen Tango with the help and support of Alex Bartos, [Andrei Andreev](http://andreimoment.com), and Thomas Fischer. The manual project is currently maintained and edited by Mitra Martin. You can [support her work here.](https://www.patreon.com/mitramartin) 
+The concept of [peer-to-peer learning for tango](https://www.mitramartin.com/peer-to-peer-learning-project/) has been developed at [Oxygen Tango](http://www.oxygentango.com/) with the help and support of Thomas Fischer, [Andrei Andreev](http://andreimoment.com), Stefan Fabry, Alex Bartos, David Lampson, Magan Wiles, and others. The manual project is currently maintained and edited by [Mitra Martin](https://www.mitramartin.com/). You can [support her work here.](https://www.patreon.com/mitramartin) 
 
 {% include tm/buy_manual.html %}
 
