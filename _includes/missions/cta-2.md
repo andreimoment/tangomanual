@@ -1,2 +1,1 @@
-![Creative Commons](/images/by-sa.png)
-Format: ![Alt Text](url)
+![cclicense]({{ site.url }}/assets/images/by-sa.png)
