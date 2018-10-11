@@ -59,5 +59,5 @@ The concept of [peer-to-peer learning for tango](https://www.mitramartin.com/pee
 
 {% include tm/buy_manual.html %}
 
----
 {% include tm/general_feedback.html %}
+{% include tos_license.html %}

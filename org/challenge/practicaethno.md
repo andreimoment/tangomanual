@@ -5,12 +5,12 @@ title: "Practica Ethno"
 # for the list below. Each level is indented by 2 additional spaces.
 
 toc:                    # Think of the TOC as nested lists:
-  - level: "Dance, do these at labs"    # "level"s and the "missions" list are under "toc"
-    missions:           # Mission numbers are under "missions".
-      - 1               # Note the indentation! ("I belong to the parent above")
-      - 59              # And the dashes! ("I am an item in a list")
-      - 2               # For mission reference, see
-      - 3               # tangomanual.com/info/reference-all-missions/
+  - level: "Dance, do these at labs"    
+    missions:           
+      - 1               
+      - 59              
+      - 2               
+      - 3               
       - 4
       - 5
       - 6

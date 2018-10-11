@@ -1,7 +1,7 @@
 ---
 title: "Mission Name"
 youtube: "vSjX02FIZCk"
-layout: mission-vue[][]
+layout: mission-vue
 tags:
   - tag1
   - multi-word-tag

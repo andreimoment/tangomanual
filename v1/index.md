@@ -105,6 +105,8 @@ Our assumption is that all students will learn and dance both the leader and fol
 
 {% include tm/buy_manual.html %}
 
+{% include tos_license.html %}
+
 ---
 
 *This is version 1.0 of the Tango Manual*
