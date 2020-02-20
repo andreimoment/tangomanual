@@ -8,7 +8,7 @@ title: Tango Manual
 
 ## Open-source Tango Curriculum
 
-This free, open-source, collaboratively-edited curriculum provides structure for the first 30-60 hours of beginner-level tango learning. It consists of easy-to-use learning missions with teaching instrucitons and videos that intermediate and advanced dancers can use to integrate newcomers to tango.
+This free, open-source, collaboratively-edited curriculum provides structure for the first 30-60 hours of beginner-level tango learning. It consists of easy-to-use learning missions with teaching instructions and videos that intermediate and advanced dancers can use to integrate newcomers to tango.
 
 ### Peer-to-peer learning
 
