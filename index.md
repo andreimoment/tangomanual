@@ -20,10 +20,6 @@ In our experience, the peer-to-peer learning process results in the emergence of
 
 We know that tango community organizers in smaller communities and in university tango clubs need to to regularly bring new curriculum. We believe that a systematic, well-tested, evolving curriculum can be especially useful to such organizers as well as any organization intending to bring tango to its members. 
 
-### Active, community-driven project
-
-The Tango Manual is part of a growing ecosystem of tango learning resources being developed collaboratively by Tango dancers and coordinated by the Tango Hatchery. is a beta test which means it is still evolving. We invite you to participate via the [Tango Hatchery forum](https://www.tangohatchery.com/forum). 
-
 ## Basic language
 * RING - A tango level. Each ring is a different color and has a different theme. 
 * MISSION - A mission is a unit of nano-learning with a specific learning outcome. Missions that teach new movement material have this [anatomy](http://tangomanual.com/v1/appendix/ap-e-anatomy-of-a-mission)
@@ -55,7 +51,7 @@ Daniel Trenner, David Lampson, Fabienne Bongard, Felipe Martinez, Homer & Cristi
 
 Please let us know if you recognize the work of any other tango professional in the content of this curriculum so that they can be acknowledged.  
 
-The concept of [peer-to-peer learning for tango](https://www.mitramartin.com/peer-to-peer-learning-project/) has been developed at [Oxygen Tango](http://www.oxygentango.com/) with the help and support of Thomas Fischer, [Andrei Andreev](http://andreimoment.com), Stefan Fabry, Alex Bartos, David Lampson, Magan Wiles, and others. The manual project is currently maintained and edited by [Mitra Martin](https://www.mitramartin.com/). You can [support her work here.](https://www.patreon.com/mitramartin) 
+The concept of peer-to-peer learning for tango has been developed in part at [Oxygen Tango](http://www.oxygentango.com/) with the help and support of Thomas Fischer, [Andrei Andreev](http://andreimoment.com), Stefan Fabry, Alex Bartos, David Lampson, Magan Wiles, and others. The manual project is currently maintained and edited by [Mitra Martin](https://www.mitramartin.com/). 
 
 {% include tm/buy_manual.html %}
 
